@@ -4,7 +4,7 @@ import sm.*;
 void main() {
 
     // cria um acessador para o Giassi
-    Giassi sm = new Giassi();
+    Giassi gs = new Giassi();
     Bistek bt = new Bistek();
     Fort ft = new Fort();
 
@@ -13,11 +13,19 @@ void main() {
     File lista = new File("lista-compras.txt");
     lendoArquivo(lista, ls);
 
-    pesquisandoProduto(ls, sm);
-    pesquisandoProduto(ls, bt);
-    pesquisandoProduto(ls, ft);
+    float compraGiassi = valorTotalCompra(pesquisandoProduto(ls, gs));
+    float compraBistek = valorTotalCompra(pesquisandoProduto(ls, bt));
+    float compraFort = valorTotalCompra(pesquisandoProduto(ls, ft));
 
+    float menorPreco = Math.min(compraGiassi, Math.min(compraBistek, compraFort));
 
+    if (menorPreco == compraGiassi) {
+        System.out.printf("O Giassi é o mais barato! O total da compra é %f\n", compraGiassi);
+    } else if (menorPreco == compraBistek) {
+        System.out.printf("O Bistek é o mais barato! O total da compra é %f\n", compraBistek);
+    } else {
+        System.out.printf("O Fort é o mais barato! O total da compra é %f\n", compraFort);
+    }
 }
 
 static void lendoArquivo(File lista, ListaSequencial<String> ls) {
@@ -53,6 +61,14 @@ static ListaSequencial<Produto> pesquisandoProduto(ListaSequencial<String> produ
     return lista;
 }
 
-
+static float valorTotalCompra(ListaSequencial<Produto> produtos) {
+    float valorTotal = 0;
+    for (Produto produto : produtos) {
+        if (produto != null) {
+            valorTotal += produto.getPreco();
+        }
+    }
+    return valorTotal;
+}
 
 
