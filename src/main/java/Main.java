@@ -4,113 +4,134 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-class Orcamento implements Comparable<Orcamento> {
-    String supermercado;
-    float total;
-    ListaSequencial<Produto> itens;
+public class Main {
 
-    public Orcamento(String supermercado, float total, ListaSequencial<Produto> itens) {
-        this.supermercado = supermercado;
-        this.total = total;
-        this.itens = itens;
+    public static void main(String[] args) {
+        // 1. Carrega a cesta desejada a partir do arquivo de texto
+        ListaSequencial<ItemLista> cestaDesejada = new ListaSequencial<>();
+        File arquivo = new File("lista-compras.txt");
+        lendoArquivo(arquivo, cestaDesejada);
+
+        // 2. Prepara a lista de supermercados que serão consultados
+        ListaSequencial<Supermercado> supermercados = new ListaSequencial<>();
+        supermercados.adiciona(new Giassi());
+        supermercados.adiciona(new Bistek());
+        supermercados.adiciona(new Fort());
+
+        // 3. Consulta os produtos e gera os orçamentos para cada supermercado
+        ListaSequencial<Orcamento> orcamentos = new ListaSequencial<>();
+        for (Supermercado sm : supermercados) {
+            ListaSequencial<Produto> produtosEncontrados = pesquisandoProduto(cestaDesejada, sm);
+            float total = valorTotalCompra(produtosEncontrados);
+            String nomeSm = sm.getClass().getSimpleName();
+
+            orcamentos.adiciona(new Orcamento(nomeSm, total, produtosEncontrados));
+        }
+
+        // 4. Ordena os orçamentos do menor para o maior preço
+        orcamentos.ordena();
+
+        // 5. Exibe o ranking final de preços
+        System.out.println("=== RANKING DE PREÇOS ===");
+        for (int i = 0; i < orcamentos.comprimento(); i++) {
+            Orcamento orc = orcamentos.obtem(i);
+            System.out.printf("%dº Lugar - %s: R$ %.2f\n", (i + 1), orc.getSupermercado(), orc.getTotal());
+        }
+
+        // 6. Detalha os itens da cesta mais barata
+        System.out.println("\n=== DETALHES DA MELHOR CESTA ===");
+        Orcamento vencedor = orcamentos.primeiro();
+        System.out.printf("Supermercado: %s (Total: R$ %.2f)\n", vencedor.getSupermercado(), vencedor.getTotal());
+
+        for (Produto p : vencedor.getItens()) {
+            if (p != null) {
+                System.out.printf("- %s (%s): R$ %.2f\n", p.getNome(), p.getMarca(), p.getPreco());
+            } else {
+                System.out.println("- [ITEM NÃO ENCONTRADO/DISPONÍVEL NOS CRITÉRIOS]");
+            }
+        }
     }
 
-    @Override
-    public int compareTo(Orcamento outro) {
-        // Compara os orçamentos com base no valor total (necessário para o ordena() funcionar)
-        return Float.compare(this.total, outro.total);
+    /**
+     * Lê o arquivo de entrada e delega a criação dos itens para conversão da linha.
+     * Ignora linhas em branco.
+     */
+    static void lendoArquivo(File arquivo, ListaSequencial<ItemLista> ls) {
+        try (Scanner sc = new Scanner(arquivo)) {
+            while (sc.hasNextLine()) {
+                String linha = sc.nextLine();
+                if (linha.trim().isEmpty()) continue;
+
+                ItemLista item = extrairItemDaLinha(linha);
+                ls.adiciona(item);
+            }
+        } catch (FileNotFoundException e) {
+            System.out.println("Arquivo lista-compras.txt não encontrado.");
+        }
     }
-}
 
-        void main() {
+    /**
+     * Converte uma linha de texto no formato "busca ; obrigatorios ; marcas"
+     * em um objeto ItemLista devidamente configurado para os filtros da busca.
+     */
+    private static ItemLista extrairItemDaLinha(String linha) {
+        String[] partes = linha.split(";");
+        ItemLista item = new ItemLista(partes[0].trim());
 
-            ListaSequencial<String> ls = new ListaSequencial<>();
-            File lista = new File("lista-compras.txt");
-            lendoArquivo(lista, ls);
-
-            //Usando a ListaSequencial para agrupar os supermercados
-            // Isso evita a repetição manual de código para cada novo supermercado
-            ListaSequencial<Supermercado> supermercados = new ListaSequencial<>();
-            supermercados.adiciona(new Giassi());
-            supermercados.adiciona(new Bistek());
-            supermercados.adiciona(new Fort());
-
-            //Lista para guardar os orçamentos gerados
-            ListaSequencial<Orcamento> orcamentos = new ListaSequencial<>();
-
-            //Laço de repetição dinâmico
-            for (Supermercado sm : supermercados) {
-                ListaSequencial<Produto> produtosEncontrados = pesquisandoProduto(ls, sm);
-                float total = valorTotalCompra(produtosEncontrados);
-
-                // Pega o nome da classe (Giassi, Bistek, Fort) para identificar o orçamento
-                String nomeSm = sm.getClass().getSimpleName();
-
-                orcamentos.adiciona(new Orcamento(nomeSm, total, produtosEncontrados));
-            }
-
-            // Ordenando tudo
-            orcamentos.ordena();
-
-            //Exibição do ranking e detalhamento da cesta mais barata
-            System.out.println("=== RANKING DE PREÇOS ===");
-            for (int i = 0; i < orcamentos.comprimento(); i++) {
-                Orcamento orc = orcamentos.obtem(i);
-                System.out.printf("%dº Lugar - %s: R$ %.2f\n", (i + 1), orc.supermercado, orc.total);
-            }
-
-            System.out.println("\n=== DETALHES DA CESTA MAIS BARATA ===");
-            Orcamento vencedor = orcamentos.primeiro(); // Pega o primeiro da lista ordenada
-            System.out.printf("Supermercado: %s (Total: R$ %.2f)\n", vencedor.supermercado, vencedor.total);
-
-            for (Produto p : vencedor.itens) {
-                if (p != null) {
-                    System.out.printf("- %s: R$ %.2f\n", p.getNome(), p.getPreco());
-                } else {
-                    System.out.println("- Produto não encontrado nesta loja");
-                }
+        if (partes.length > 1 && !partes[1].trim().isEmpty()) {
+            String[] obrigatorios = partes[1].split(",");
+            for (String req : obrigatorios) {
+                item.adicionarObrigatorio(req);
             }
         }
 
-        static void lendoArquivo(File lista, ListaSequencial<String> ls) {
-            try (Scanner sc = new Scanner(lista)) {
-                while (sc.hasNextLine()) {
-                    String item = sc.nextLine();
-                    ls.adiciona(item);
-                }
-            } catch (FileNotFoundException e) {
-                System.out.println("Arquivo não encontrado.");
+        if (partes.length > 2 && !partes[2].trim().isEmpty()) {
+            String[] marcas = partes[2].split(",");
+            for (String m : marcas) {
+                item.adicionarMarca(m);
             }
         }
 
-        static ListaSequencial<Produto> pesquisandoProduto(ListaSequencial<String> produtos, Supermercado sp) {
-            ListaSequencial<Produto> lista = new ListaSequencial<>();
+        return item;
+    }
 
-            for (String produto : produtos) {
-                float menorPrco = Float.MAX_VALUE;
-                Produto item = null;
+    /**
+     * Busca os itens na API do supermercado e seleciona a opção mais barata
+     * que atenda simultaneamente a todos os critérios exigidos pelo usuário.
+     */
+    static ListaSequencial<Produto> pesquisandoProduto(ListaSequencial<ItemLista> itensDesejados, Supermercado sp) {
+        ListaSequencial<Produto> resultadoCesta = new ListaSequencial<>();
 
-                Supermercado.Resultado busca = sp.busca(produto.toString());
-                if (busca != null) {
-                    for (Produto p : busca) {
-                        if (p.getPreco() < menorPrco && p.isDisponivel()) {
-                            menorPrco = p.getPreco();
-                            item = p;
+        for (ItemLista itemDesejado : itensDesejados) {
+            float menorPreco = Float.MAX_VALUE;
+            Produto melhorOpcao = null;
+
+            Supermercado.Resultado busca = sp.busca(itemDesejado.getTermoBusca());
+            if (busca != null) {
+                for (Produto p : busca) {
+                    if (p.isDisponivel() && itemDesejado.aceitaProduto(p)) {
+                        if (p.getPreco() < menorPreco) {
+                            menorPreco = p.getPreco();
+                            melhorOpcao = p;
                         }
                     }
                 }
-
-                lista.adiciona(item);
             }
-            return lista;
+            resultadoCesta.adiciona(melhorOpcao);
         }
+        return resultadoCesta;
+    }
 
-        static float valorTotalCompra(ListaSequencial<Produto> produtos) {
-            float valorTotal = 0;
-            for (Produto produto : produtos) {
-                if (produto != null) {
-                    valorTotal += produto.getPreco();
-                }
+    /**
+     * Retorna o valor total da cesta somando o preço de cada produto encontrado.
+     */
+    static float valorTotalCompra(ListaSequencial<Produto> produtos) {
+        float valorTotal = 0;
+        for (Produto produto : produtos) {
+            if (produto != null) {
+                valorTotal += produto.getPreco();
             }
-            return valorTotal;
         }
+        return valorTotal;
+    }
+} 

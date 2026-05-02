@@ -1,6 +1,4 @@
-Macarrão
-Arroz
-Feijão
-Frango
-Leite Integral
-Café
+tapioca; ;Da Terrinha,Akio,Rocha
+cafe; 500g ;Melitta,Coracoes
+leite; uht ;tirol,parmalat
+sabao; po ;Omo,Brilhante,Ype
