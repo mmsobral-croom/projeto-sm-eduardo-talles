@@ -13,7 +13,9 @@ void main() {
     File lista = new File("lista-compras.txt");
     lendoArquivo(lista, ls);
 
-
+    pesquisandoProduto(ls, sm);
+    pesquisandoProduto(ls, bt);
+    pesquisandoProduto(ls, ft);
 
 
 }
@@ -27,6 +29,28 @@ static void lendoArquivo(File lista, ListaSequencial<String> ls) {
     } catch (FileNotFoundException e) {
         System.out.println("Arquivo não encontrado.");
     }
+}
+
+static ListaSequencial<Produto> pesquisandoProduto(ListaSequencial<String> produtos, Supermercado sp) {
+    ListaSequencial<Produto> lista = new ListaSequencial<>();
+
+    for (String produto : produtos) {
+        float menorPrco = Float.MAX_VALUE;
+        Produto item = null;
+
+        Supermercado.Resultado busca = sp.busca(produto.toString());
+        if (busca != null) {
+            for (Produto p : busca) {
+                if (p.getPreco() < menorPrco && p.isDisponivel()) {
+                    menorPrco = p.getPreco();
+                    item = p;
+                }
+            }
+        }
+
+        lista.adiciona(item);
+    }
+    return lista;
 }
 
 
