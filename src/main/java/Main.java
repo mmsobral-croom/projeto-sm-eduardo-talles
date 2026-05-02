@@ -1,18 +1,34 @@
 import esd.ListaSequencial;
-import sm.Giassi;
-import sm.Produto;
+import sm.*;
 
 void main() {
 
     // cria um acessador para o Giassi
     Giassi sm = new Giassi();
+    Bistek bt = new Bistek();
+    Fort ft = new Fort();
 
-    // procura todos produtos cujo nome contenha "tapioca"
-    ListaSequencial<Produto> produtos = sm.busca("tapioca");
+    ListaSequencial<String> ls = new ListaSequencial<>();
 
-    // Mostra cada um dos produtos encontrados
-    for (int pos = 0; pos < produtos.comprimento(); pos++) {
-        IO.println(produtos.obtem(pos));
+    File lista = new File("lista-compras.txt");
+    lendoArquivo(lista, ls);
+
+
+
+
+}
+
+static void lendoArquivo(File lista, ListaSequencial<String> ls) {
+    try (Scanner sc = new Scanner(lista)) {
+        while (sc.hasNextLine()) {
+            String item = sc.nextLine();
+            ls.adiciona(item);
+        }
+    } catch (FileNotFoundException e) {
+        System.out.println("Arquivo não encontrado.");
     }
 }
+
+
+
 
