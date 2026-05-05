@@ -224,7 +224,7 @@ public class ListaSequencial<T> implements Iterable<T> {
             int cmp = valor.compareTo(area[meio]);
 
             if (cmp == 0) {
-                return meio; // Encontrou o valor!
+                return meio; // Encontrou o valor
             } else if (cmp < 0) {
                 fim = meio - 1; // O valor está na metade da esquerda
             } else {
@@ -234,22 +234,6 @@ public class ListaSequencial<T> implements Iterable<T> {
 
         return -1; // Valor não encontrado após esgotar o espaço de busca
     }
-
-
-//    public void ordena() {
-//        // ordena a lista com algum bom algoritmo !
-//        int len = this.len;
-//        for (int i = 0; i < len; i++) {
-//            for (int j = 0; j < len - i - 1; j++) {
-//                Comparable item1 = (Comparable) area[j];
-//                if (item1.compareTo(area[j + 1]) > 0) {
-//                    T item = (T) item1;
-//                    area[j] = area[j + 1];
-//                    area[j + 1] = (T) item;
-//                }
-//            }
-//        }
-//    }
 
     public boolean esta_ordenada() {
         boolean ok = true;
@@ -330,7 +314,6 @@ public class ListaSequencial<T> implements Iterable<T> {
             area[pos2] = val;
         }
     }
-
 
     @Override
     public Iterator<T> iterator() {
