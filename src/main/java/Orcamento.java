@@ -1,35 +1,28 @@
 import esd.ListaSequencial;
+import lombok.Getter;
 import sm.Produto;
 
-/**
- * Encapsula o resultado da cotação de uma cesta em um supermercado específico.
- * Implementa Comparable para permitir a ordenação automática pelo menor preço.
- */
+@Getter
 public class Orcamento implements Comparable<Orcamento> {
-    private String supermercado;
-    private float total;
-    private ListaSequencial<Produto> itens;
+    private final String supermercado;
+    private final float total;
+    private final boolean completo;
+    private final ListaSequencial<Produto> itens;
 
-    public Orcamento(String supermercado, float total, ListaSequencial<Produto> itens) {
+    public Orcamento(String supermercado, float total, boolean completo, ListaSequencial<Produto> itens) {
         this.supermercado = supermercado;
         this.total = total;
+        this.completo = completo;
         this.itens = itens;
-    }
-
-    public String getSupermercado() {
-        return supermercado;
-    }
-
-    public float getTotal() {
-        return total;
-    }
-
-    public ListaSequencial<Produto> getItens() {
-        return itens;
     }
 
     @Override
     public int compareTo(Orcamento outro) {
+        // Cestas completas sempre vêm antes de incompletas
+        if (this.completo && !outro.completo) return -1;
+        if (!this.completo && outro.completo) return 1;
+
+        // Se ambos forem iguais no status, decide pelo menor preço
         return Float.compare(this.total, outro.total);
     }
 }
