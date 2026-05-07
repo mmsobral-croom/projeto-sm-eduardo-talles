@@ -1,5 +1,6 @@
 import esd.ListaSequencial;
 import sm.*;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -40,6 +41,12 @@ public class Main {
 
     // --- MÉTODOS AUXILIARES ---
 
+    /**
+     * Realiza a leitura do arquivo de texto e popula a lista de itens desejados.
+     *
+     * @param arquivo O objeto File que aponta para o arquivo .txt.
+     * @param ls A lista sequencial onde os itens extraídos serão armazenados.
+     */
     static void lendoArquivo(File arquivo, ListaSequencial<ItemLista> ls) {
         try (Scanner sc = new Scanner(arquivo)) {
             while (sc.hasNextLine()) {
@@ -52,6 +59,13 @@ public class Main {
         }
     }
 
+    /**
+     * Processa uma linha do arquivo de texto e converte num objeto ItemLista.
+     * O formato esperado da linha é: "produto;obrigatorio;marca".
+     *
+     * @param linha String lida do arquivo.
+     * @return Um objeto ItemLista configurado com termos e restrições.
+     */
     private static ItemLista extrairItemDaLinha(String linha) {
         String[] partes = linha.split(";");
         ItemLista item = new ItemLista(partes[0].trim());
@@ -65,6 +79,14 @@ public class Main {
         return item;
     }
 
+    /**
+     * Pesquisa cada item da cesta num supermercado específico, selecionando
+     * sempre o produto de menor preço que atenda aos critérios.
+     *
+     * @param itensDesejados Lista de itens que o usuário pretende comprar.
+     * @param sp O supermercado onde a busca será realizada.
+     * @return Uma lista de produtos representando a melhor combinação encontrada no estabelecimento.
+     */
     static ListaSequencial<Produto> pesquisandoProduto(ListaSequencial<ItemLista> itensDesejados, Supermercado sp) {
         ListaSequencial<Produto> resultadoCesta = new ListaSequencial<>();
         for (ItemLista itemDesejado : itensDesejados) {
@@ -86,6 +108,11 @@ public class Main {
         return resultadoCesta;
     }
 
+    /**
+     * Imprime no console o ranking de supermercados ordenados por preço.
+     *
+     * @param orcamentos Lista de orçamentos já processados e ordenados.
+     */
     private static void imprimirRanking(ListaSequencial<Orcamento> orcamentos) {
         System.out.println("=== RANKING DE PREÇOS ===");
         for (int i = 0; i < orcamentos.comprimento(); i++) {
@@ -95,6 +122,12 @@ public class Main {
         }
     }
 
+    /**
+     * Exibe detalhadamente os itens, marcas e preços do supermercado
+     * que apresentou o melhor orçamento.
+     *
+     * @param vencedor O orçamento com o menor valor total.
+     */
     private static void imprimirDetalhesVencedor(Orcamento vencedor) {
         System.out.println("\n=== DETALHES DA MELHOR CESTA ===");
         String status = vencedor.isCompleto() ? "" : " [AVISO: ITENS FALTANTES]";
