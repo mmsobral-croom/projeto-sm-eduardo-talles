@@ -1,6 +1,7 @@
+package sm;
+
 import esd.ListaSequencial;
 import lombok.Getter;
-import sm.Produto;
 
 @Getter
 public class Orcamento implements Comparable<Orcamento> {
@@ -9,7 +10,7 @@ public class Orcamento implements Comparable<Orcamento> {
     private final boolean completo;
     private final ListaSequencial<Produto> itens;
 
-    // Construtor da classe Orcamento
+    // Construtor da classe sm.Orcamento
     public Orcamento(String supermercado, float total, boolean completo, ListaSequencial<Produto> itens) {
         this.supermercado = supermercado;
         this.total = total;
@@ -23,7 +24,7 @@ public class Orcamento implements Comparable<Orcamento> {
      * 1. Cestas completas têm prioridade sobre cestas incompletas.
      * 2. Entre cestas com o mesmo status de completude, o critério de desempate é o menor valor total.
      *
-     * @param outro O outro objeto Orcamento a ser comparado.
+     * @param outro O outro objeto sm.Orcamento a ser comparado.
      * @return Um inteiro negativo se este objeto for "menor",
      *         zero se forem iguais, ou um inteiro positivo se for "maior".
      */

@@ -60,11 +60,11 @@ public class Main {
     }
 
     /**
-     * Processa uma linha do arquivo de texto e converte num objeto ItemLista.
+     * Processa uma linha do arquivo de texto e converte num objeto sm.ItemLista.
      * O formato esperado da linha é: "produto;obrigatorio;marca".
      *
      * @param linha String lida do arquivo.
-     * @return Um objeto ItemLista configurado com termos e restrições.
+     * @return Um objeto sm.ItemLista configurado com termos e restrições.
      */
     private static ItemLista extrairItemDaLinha(String linha) {
         String[] partes = linha.split(";");

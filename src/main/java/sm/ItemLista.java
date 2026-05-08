@@ -1,6 +1,8 @@
+package sm;
+
 import esd.ListaSequencial;
 import lombok.Getter;
-import sm.Produto;
+
 import java.text.Normalizer;
 
 public class ItemLista {
@@ -9,7 +11,7 @@ public class ItemLista {
     private final ListaSequencial<String> termosObrigatorios;
     private final ListaSequencial<String> marcasAceitaveis;
 
-    // Construtor da classe ItemLista.
+    // Construtor da classe sm.ItemLista.
     public ItemLista(String termoBusca) {
         this.termoBusca = termoBusca;
         this.termosObrigatorios = new ListaSequencial<>();

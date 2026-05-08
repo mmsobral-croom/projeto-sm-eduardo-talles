@@ -6,8 +6,8 @@ O presente projeto tem como objetivo a construção de um buscador e comparador 
 # 2. Arquitetura e Diagrama de Classes
 O sistema foi modularizado garantindo a responsabilidade única de cada classe. A comunicação central ocorre a partir da classe `Main`, que é responsabilizada pela leitura de dados, instancia os `Supermercados` e processa as respostas.
 
-* `ItemLista`: Responsável por armazenar os critérios de busca do usuário e aplicar regras de negócio (normalização de *strings*) para aceitar ou recusar produto.
-* `Orcamento`: Encapsula o resultado de uma busca em um supermercado específico, implementando `Comparable` para ditar as regras do ranqueamento.
+* `sm.ItemLista`: Responsável por armazenar os critérios de busca do usuário e aplicar regras de negócio (normalização de *strings*) para aceitar ou recusar produto.
+* `sm.Orcamento`: Encapsula o resultado de uma busca em um supermercado específico, implementando `Comparable` para ditar as regras do ranqueamento.
 * `ListaSequencial`: Estrutura de dados base que armazena todas as coleções de objetos do sistema.
 * `Main`: Atua como a classe orquestradora do sistema, sendo responsável por carregar a lista de compras, instanciar as implementações dos supermercados e gerenciar o fluxo de execução até a exibição dos resultados finais.
 * `Supermercado`: Classe (ou Interface) que define o contrato para a comunicação com as APIs externas. Ela padroniza como cada estabelecimento deve processar a busca e retornar os dados dos produtos encontrados.
