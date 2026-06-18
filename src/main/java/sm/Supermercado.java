@@ -28,6 +28,7 @@ public class Supermercado {
     String url;
     final Pattern re_resources = Pattern.compile("(\\d+)-(\\d+)/(\\d+)", Pattern.CASE_INSENSITIVE);
     final int query_len = 40;
+    CacheSupermercado cache;
 
     public class Resultado implements Iterable<Produto> {
         String produto;
@@ -129,6 +130,15 @@ public class Supermercado {
     public Supermercado(String url)  {
         cliente = HttpClient.newHttpClient();
         this.url = url+ "/api/catalog_system/pub/products/search/";
+        this.cache = new CacheSupermercado(this.getClass().getSimpleName());
+    }
+
+    public void encerra() {
+        this.cache.salvaCache();
+    }
+
+    public void adiciona(Produto prod) {
+        this.cache.adicona(prod);
     }
 
     String make_url(String produto, int inicio) {

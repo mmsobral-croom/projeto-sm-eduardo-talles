@@ -37,6 +37,11 @@ public class Main {
         orcamentos.ordena();
         imprimirRanking(orcamentos);
         imprimirDetalhesVencedor(orcamentos.primeiro());
+
+        for (Supermercado sm : supermercados) {
+            sm.encerra();
+        }
+
     }
 
     // --- MÉTODOS AUXILIARES ---
@@ -103,6 +108,7 @@ public class Main {
                     }
                 }
             }
+            sp.adiciona(melhorOpcao);
             resultadoCesta.adiciona(melhorOpcao);
         }
         return resultadoCesta;
