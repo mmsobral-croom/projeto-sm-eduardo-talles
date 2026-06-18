@@ -13,6 +13,7 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.nio.charset.StandardCharsets;
+import java.util.Arrays;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Spliterator;
@@ -143,11 +144,17 @@ public class Supermercado {
         return sb.toString();
     }
 
-    String make_get_url(String produtoId) {
+    String make_get_url(String... ids) {
         StringBuilder sb = new StringBuilder();
         sb.append(this.url);
-        sb.append("?fq=productId:");
-        sb.append(produtoId);
+        sb.append("?");
+        boolean naoPrimeiro = false;
+        for (var produtoId: ids) {
+            if (naoPrimeiro) sb.append("&");
+            else naoPrimeiro = true;
+            sb.append("fq=productId:");
+            sb.append(produtoId);
+        }
 
         return sb.toString();
     }
@@ -217,6 +224,7 @@ public class Supermercado {
         return paginas;
     }
 
+
     public Resultado busca(String produto) {
         Resultado res = null;
 
@@ -234,6 +242,34 @@ public class Supermercado {
         return res;
     }
 
+    private static final int MAX_QUERY_LEN = 40;
+
+    public ListaSequencial<Produto> obtem(String... ids) {
+        ListaSequencial<Produto> res = new ListaSequencial<>();
+        // precisa paginar as buscas, pois a API tem um limite de 50 itens por consulta
+        for (int j=0; j < ids.length; j += Supermercado.MAX_QUERY_LEN) {
+            var args = Arrays.copyOfRange(ids, j, Math.min(j+Supermercado.MAX_QUERY_LEN, ids.length));
+            HttpResponse<String> response = envia(make_get_url(args));
+            if (response != null) {
+                int status = response.statusCode();
+                if (status == 200 || status == 206) {
+                    var prods = extrai_produtos(response);
+                    for (int k=0; k < prods.comprimento(); k++) {
+                        res.adiciona(prods.obtem(k));
+                    }
+                }
+            }
+        }
+        return res;
+    }
+
+    public ListaSequencial<Produto> obtem(ListaSequencial<String> ids) {
+        String[] args = new String[ids.comprimento()];
+        for (int j=0; j < ids.comprimento(); j++) {
+            args[j] = ids.obtem(j);
+        }
+        return obtem(args);
+    }
 
     public Produto obtem(String produto_id) {
         Produto prod = null;
