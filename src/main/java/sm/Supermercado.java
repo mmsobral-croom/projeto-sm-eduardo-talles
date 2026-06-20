@@ -137,8 +137,8 @@ public class Supermercado {
         this.cache.salvaCache();
     }
 
-    public void adiciona(Produto prod) {
-        this.cache.adicona(prod);
+    public void adiciona(String termo, Produto prod) {
+        this.cache.adicona(termo, prod);
     }
 
     String make_url(String produto, int inicio) {
@@ -238,11 +238,20 @@ public class Supermercado {
     public Resultado busca(String produto) {
         Resultado res = null;
 
+        ListaSequencial<Produto> produtosCache = this.cache.buscarPorNome(produto);
+        if (produtosCache != null && !produtosCache.esta_vazia()) {
+            return new Resultado(this, produto, produtosCache, produtosCache.comprimento());
+        }
+
         HttpResponse<String> response = envia(make_url(produto, 0));
         if (response != null) {
             int status = response.statusCode();
             if (status == 200 || status == 206) {
                 ListaSequencial<Produto> r = extrai_produtos(response);
+
+                for (Produto produtoRetorno : r) {
+                    this.cache.adicona(produto, produtoRetorno);
+                }
 
                 int[] faixa = obtem_info_paginas(response);
 

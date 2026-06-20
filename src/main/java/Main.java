@@ -108,7 +108,6 @@ public class Main {
                     }
                 }
             }
-            sp.adiciona(melhorOpcao);
             resultadoCesta.adiciona(melhorOpcao);
         }
         return resultadoCesta;
