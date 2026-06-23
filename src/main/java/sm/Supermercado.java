@@ -90,7 +90,7 @@ public class Supermercado {
         class Iterador implements Iterator<Produto> {
             int total;
             int inicio = 0;
-//            int pos = 0;
+            //            int pos = 0;
             ListaSequencial<Produto> produtos;
 
             Iterador(ListaSequencial<Produto> produtos, int total) {
@@ -138,7 +138,7 @@ public class Supermercado {
     }
 
     public void adiciona(String termo, Produto prod) {
-        this.cache.adicona(termo, prod);
+        this.cache.adiciona(termo, prod);
     }
 
     String make_url(String produto, int inicio) {
@@ -236,13 +236,24 @@ public class Supermercado {
 
 
     public Resultado busca(String produto) {
-        Resultado res = null;
-
+        // Verifica se há produtos no cache para esse termo de busca
         ListaSequencial<Produto> produtosCache = this.cache.buscarPorNome(produto);
+
         if (produtosCache != null && !produtosCache.esta_vazia()) {
-            return new Resultado(this, produto, produtosCache, produtosCache.comprimento());
+            // Coleta os IDs salvos e consulta a API para obter
+            // preços e disponibilidade atualizados
+            ListaSequencial<String> ids = new ListaSequencial<>();
+            for (Produto p : produtosCache) {
+                ids.adiciona(p.getId());
+            }
+            ListaSequencial<Produto> produtosAtualizados = obtem(ids);
+
+            if (produtosAtualizados != null && !produtosAtualizados.esta_vazia()) {
+                return new Resultado(this, produto, produtosAtualizados, produtosAtualizados.comprimento());
+            }
         }
 
+        // Busca por nome na API e armazena no cache
         HttpResponse<String> response = envia(make_url(produto, 0));
         if (response != null) {
             int status = response.statusCode();
@@ -250,15 +261,14 @@ public class Supermercado {
                 ListaSequencial<Produto> r = extrai_produtos(response);
 
                 for (Produto produtoRetorno : r) {
-                    this.cache.adicona(produto, produtoRetorno);
+                    this.cache.adiciona(produto, produtoRetorno);
                 }
 
                 int[] faixa = obtem_info_paginas(response);
-
-                res = new Resultado(this, produto, r, faixa[2]);
+                return new Resultado(this, produto, r, faixa[2]);
             }
         }
-        return res;
+        return null;
     }
 
     private static final int MAX_QUERY_LEN = 40;

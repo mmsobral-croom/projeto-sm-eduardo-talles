@@ -19,7 +19,7 @@ public class CacheSupermercado {
         return hash.obtem_ou_default(nome, null);
     }
 
-    public void adicona(String termo, Produto prod) {
+    public void adiciona(String termo, Produto prod) {
         if (prod == null || termo == null) return;
 
         ListaSequencial<Produto> produtos = hash.obtem_ou_default(termo, null);
@@ -28,6 +28,7 @@ public class CacheSupermercado {
             hash.adiciona(termo, produtos);
         }
 
+        // Evita duplicatas checando pelo ID do produto
         boolean jaExiste = false;
         for (Produto produto : produtos) {
             if (produto.getId().equals(prod.getId())) {
@@ -77,7 +78,7 @@ public class CacheSupermercado {
                         .disponivel(Boolean.parseBoolean(colunas[6]))
                         .build();
 
-                this.adicona(colunas[0], produto);
+                this.adiciona(colunas[0], produto);
             }
 
         } catch (IOException e) {
