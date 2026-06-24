@@ -113,9 +113,11 @@ public class Supermercado {
 //                    inicio = produtos.comprimento() + inicio;
                     if (inicio < total) {
                         var mais_produtos = sm.busca_proximo(produto, inicio);
-                        if (produtos != null) {
+                        if (produtos != null && mais_produtos != null) {
                             for (int j=0; j < mais_produtos.comprimento(); j++) {
-                                produtos.adiciona(mais_produtos.obtem(j));
+                                Produto p = mais_produtos.obtem(j);
+                                produtos.adiciona(p);
+                                sm.adiciona(produto, p); // salva também no cache
                             }
 //                            pos = 0;
                         }
@@ -265,7 +267,22 @@ public class Supermercado {
                 }
 
                 int[] faixa = obtem_info_paginas(response);
-                return new Resultado(this, produto, r, faixa[2]);
+                int total = faixa[2];
+
+                // Busca todas as páginas restantes de uma só vez em vez de deixar o Iterador buscar sob demanda
+                while (r.comprimento() < total) {
+                    var mais_produtos = busca_proximo(produto, r.comprimento());
+                    if (mais_produtos == null || mais_produtos.esta_vazia()) {
+                        break;
+                    }
+                    for (int j = 0; j < mais_produtos.comprimento(); j++) {
+                        Produto p = mais_produtos.obtem(j);
+                        r.adiciona(p);
+                        this.cache.adiciona(produto, p);
+                    }
+                }
+
+                return new Resultado(this, produto, r, r.comprimento());
             }
         }
         return null;
