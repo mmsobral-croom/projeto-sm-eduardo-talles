@@ -1,6 +1,4 @@
 tapioca; ;Da Terrinha,Akio,Rocha
 cafe; 500g ;Melitta,Coracoes
 leite; uht ;tirol,parmalat
-sabao; po ;Omo,Brilhante,Ype
-arroz; tipo 1, 5kg ;Camil,Tio Joao,Urbano
-feijao; preto, 1kg ;Camil,Kicaldo,Broto Legal
+

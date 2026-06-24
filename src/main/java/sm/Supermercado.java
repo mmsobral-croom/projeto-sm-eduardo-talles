@@ -1,9 +1,7 @@
 package sm;
 
 import esd.ListaSequencial;
-import esd.TabHash;
 import org.json.JSONArray;
-import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.IOException;
@@ -36,6 +34,11 @@ public class Supermercado {
         return houveAtualizacaoDeCache;
     }
 
+    /**
+     * Reseta a flag de atualização de cache.
+     * Deve ser chamado antes do início da iteração de uma nova lista de compras
+     * para garantir que alertas de cache incompleto funcionem corretamente por mercado.
+     */
     public void resetarStatusCache() {
         this.houveAtualizacaoDeCache = false;
     }
@@ -80,8 +83,7 @@ public class Supermercado {
                     action.accept(it.next());
                     return true;
                 }
-                else // cannot advance
-                    return false;
+                else return false;
             }
 
             public Spliterator<Produto> trySplit() {
@@ -182,7 +184,6 @@ public class Supermercado {
         return sb.toString();
     }
 
-
     HttpResponse<String> envia(String url) {
         HttpResponse<String> response = null;
 
@@ -192,7 +193,6 @@ public class Supermercado {
                     .GET()
                     .setHeader("user-agent", "Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0")
                     .build();
-
 
             try {
                 response = cliente.send(req, HttpResponse.BodyHandlers.ofString());
@@ -247,17 +247,50 @@ public class Supermercado {
         return paginas;
     }
 
-
+    /**
+     * Efetua a busca por produtos. Prioriza a verificação no cache local.
+     * Caso o termo já tenha sido pesquisado, obtém preços atualizados pela API via ID.
+     */
     public Resultado busca(String produto) {
         ListaSequencial<Produto> produtosCache = this.cache.buscarPorNome(produto);
 
-        // 1. Retorna imediatamente se tem dados no cache
+        // O produto está no cache
         if (produtosCache != null) {
-            // Retorna os dados exatamente como estão no arquivo .txt (não faz requisição na API)
+
+            // Se o termo não existe no mercado (Cache Negativo)
+            if (produtosCache.esta_vazia()) {
+                return new Resultado(this, produto, produtosCache, 0);
+            }
+
+            // Obtendo preço atualizado por ID
+
+            // Pegar todos os IDs salvos no cache para este produto
+            ListaSequencial<String> ids = new ListaSequencial<>();
+            for (Produto p : produtosCache) {
+                ids.adiciona(p.getId());
+            }
+
+            // Buscar na API APENAS os preços desses IDs específicos
+            ListaSequencial<Produto> produtosAtualizados = obtem(ids);
+
+            // Se a API respondeu certo, atualiza a memória e retorna
+            if (produtosAtualizados != null && !produtosAtualizados.esta_vazia()) {
+
+                // Atualiza o cache em memória com os preços novos
+                // para que o salvaCache() grave os preços de hoje no .txt
+                for (Produto pAtualizado : produtosAtualizados) {
+                    this.cache.adiciona(produto, pAtualizado);
+                }
+
+                return new Resultado(this, produto, produtosAtualizados, produtosAtualizados.comprimento());
+            }
+
+            // Se a internet cair bem na hora de atualizar o preço,
+            // usa o preço antigo do cache pra não quebrar o programa.
             return new Resultado(this, produto, produtosCache, produtosCache.comprimento());
         }
 
-        // 2.Busca na API do zero
+        // Se não está no cache (Busca por nome na API e salva)
         HttpResponse<String> response = envia(make_url(produto, 0));
         if (response != null) {
             int status = response.statusCode();
@@ -265,7 +298,7 @@ public class Supermercado {
                 ListaSequencial<Produto> r = extrai_produtos(response);
 
                 if (r.esta_vazia()) {
-                    this.cache.adiciona(produto, null);
+                    this.cache.adiciona(produto, null); // cache negativo
                 } else {
                     this.houveAtualizacaoDeCache = true;
 
@@ -296,6 +329,9 @@ public class Supermercado {
 
     private static final int MAX_QUERY_LEN = 40;
 
+    /**
+     * Fatiador de lotes para API. Resolve os limites de itens por requisição da VTEX.
+     */
     public ListaSequencial<Produto> obtem(String... ids) {
         ListaSequencial<Produto> res = new ListaSequencial<>();
         for (int j=0; j < ids.length; j += Supermercado.MAX_QUERY_LEN) {
