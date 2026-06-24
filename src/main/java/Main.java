@@ -66,14 +66,6 @@ public class Main {
         imprimirRanking(orcamentos);
         imprimirDetalhesVencedor(orcamentos.primeiro());
 
-
-        System.out.println("=========================================");
-        for (Orcamento orcamento : orcamentos) {
-            imprimirDetalhesVencedor(orcamento);
-            System.out.println("=========================================");
-        }
-
-
         for (Supermercado sm : supermercados) {
             sm.encerra();
         }
