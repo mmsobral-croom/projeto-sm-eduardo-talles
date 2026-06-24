@@ -24,7 +24,7 @@ public class CacheSupermercado {
     }
 
     public void adiciona(String termo, Produto prod) {
-        if (prod == null || termo == null) return;
+        if (termo == null) return;
 
         ListaSequencial<Produto> produtos = hash.obtem_ou_default(termo, null);
         if (produtos == null) {
@@ -32,7 +32,8 @@ public class CacheSupermercado {
             hash.adiciona(termo, produtos);
         }
 
-        // Evita duplicatas checando pelo ID do produto
+        if (prod == null) return;
+
         boolean jaExiste = false;
         for (Produto produto : produtos) {
             if (produto.getId().equals(prod.getId())) {
@@ -52,9 +53,13 @@ public class CacheSupermercado {
             for (String termo : termos) {
                 ListaSequencial<Produto> produtos = hash.obtem(termo);
 
-                for (Produto p : produtos) {
-                    out.printf("%s;%s;%s;%s;%.2f;%s;%b%n",
-                            termo, p.getId(), p.getNome(), p.getMarca(), p.getPreco(), p.getEan(), p.isDisponivel());
+                if (produtos.esta_vazia()) {
+                    out.printf("%s;VAZIO%n", termo);
+                } else {
+                    for (Produto p : produtos) {
+                        out.printf("%s;%s;%s;%s;%.2f;%s;%b%n",
+                                termo, p.getId(), p.getNome(), p.getMarca(), p.getPreco(), p.getEan(), p.isDisponivel());
+                    }
                 }
             }
         } catch (IOException e) {
@@ -71,6 +76,12 @@ public class CacheSupermercado {
 
             while ((linha = br.readLine()) != null) {
                 String[] colunas = linha.split(";");
+
+                if (colunas.length == 2 && colunas[1].equals("VAZIO")) {
+                    this.adiciona(colunas[0], null);
+                    continue;
+                }
+
                 if (colunas.length < 7) continue;
 
                 Produto produto = Produto.builder()

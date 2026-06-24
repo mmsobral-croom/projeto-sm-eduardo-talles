@@ -1,0 +1,880 @@
+tapioca;1868985;Tapioca Granulada Rocha 400g;Rocha;7,99;7896655401858;true
+tapioca;2069156;Dadinho Tapioca Mandiok 400g;Mandiok;13,97;7898076870404;true
+tapioca;1668161;Tapioca Goma Rocha 1kg Hidratada;Rocha;11,99;7896655400646;true
+tapioca;1648489;Tapioca Goma Rocha Hidratada 500g;Rocha;6,59;7896655400639;true
+tapioca;1821865;Tapioca Goma Rocha 70g Porcao Certa;Rocha;1,59;7896655401421;true
+tapioca;2131480;Massa P/Tapioca Rocha 400g Batata Doce;Rocha;7,99;7896655403005;true
+tapioca;1916696;Massa Caseira Mosmann 300g C/Tapioca S/G;Mosmann;12,99;7896324241884;true
+tapioca;2232146;Palitinho Tapioca Nuu 300g;Nuu;0,00;7898994802266;false
+cafe;2217180;Cafe Po Cafe Ouro 250g Fruttato;Ouro;25,97;7898925921257;true
+cafe;2242036;Café Em Pó Café Do Mercado 250g Da Casa;Bistek;25,99;7898919870509;true
+cafe;2242095;Café Em Pó Café Do Mercado 250g Mogiana;Bistek;29,99;7898919870134;true
+cafe;2242010;Café Em Pó Café Do Mercado 250g Sul Minas;Bistek;29,99;7898919870127;true
+cafe;2241994;Café Em Pó Café Do Mercado 250g Cerrado Mineiro;Bistek;29,99;7898919870158;true
+cafe;2155419;Café Em Pó 3 Corações Portinari Café 1942 250g;Tres Coracoes;24,99;7896045109616;true
+cafe;4002119;Café Em Grãos Orgânico Espirito Santo Café Do Mercado 250g;Bistek;61,99;7898919870868;true
+cafe;4002118;Café Em Grãos Chapada Diamantina 85+ Café Do Mercado 250g;Bistek;49,99;7898919870820;true
+cafe;2242028;Café Em Pó Café Do Mercado 250g Montanhas Do Espírito Santo;Bistek;42,99;7898919870165;true
+cafe;2008173;Café Torrado E Moído A Vácuo Extraforte Café Do Ponto Pacote 500g;Do Ponto;26,97;7896089029482;true
+cafe;1789481;Café Em Cápsula Nescafé Dolce Gusto Café Au Lait 10 Cápsulas;Nescafe;27,99;7891000243954;true
+cafe;2025922;Café em pó 3 Corações Extraforte Vácuo 500g;Tres Coracoes;23,97;7896045102396;true
+cafe;2056640;Café Torrado E Moído Delicado L'Or Torras Gourmet Sachê 250g;Lor;25,99;7896089060140;true
+cafe;2035650;Cafe Po Melitta 500g Sabor Da Fazenda;Melitta;28,97;7891021005517;true
+cafe;1864955;Cafe Po Orfeu 250g Classico;Orfeu;29,99;7898912704023;true
+cafe;1072323;Café Torrado E Moído A Vácuo Tradicional Caboclo Pacote 500g;Caboclo;26,99;7896089010916;true
+cafe;2357100;Café Em Cápsula Torrado E Moído Pilão Cafeteria Colômbia Caixa 52g 10 Unidades;Pilao;21,99;7896089015041;true
+cafe;2357097;Café Em Cápsula Torrado E Moído Pilão Cafeteria Brasil Caixa 52g 10 Unidades;Pilao;21,99;7896089015058;true
+cafe;2205947;Café Torrado E Moído 3 Corações Portinari Obra Peneirando Café 1957 Drip Coffee 11g;Tres Coracoes;1,99;7896045109692;true
+cafe;2203499;Café Solúvel Forte Nescafé 40g;Nescafe;8,19;7891000307083;true
+cafe;2157209;Café Em Cápsula Mochaccino Canela Nescafé Dolce Gusto 172g;Nescafe;27,99;7891000294376;true
+cafe;2116294;Café Em Cápsula Espresso Caramelo L'Or Caixa 52g 10 Unidades;Lor;21,99;8711000488232;true
+cafe;2056658;Café Torrado E Moído Equilibrado L'Or Torras Gourmet Sachê 250g;Lor;25,99;7896089060133;true
+cafe;2054418;Café Em Cápsula Torrado E Moído Espresso Ultimo L'Or Caixa 52g 10 Unidades;Lor;21,99;8711000471296;true
+cafe;1810502;Café Em Cápsula Torrado E Moído Espresso Forza L'Or Origins Caixa 52g 10 Unidades;Lor;21,99;7896089088311;true
+cafe;1573365;Café Em Pó 3 Corações Estrada Real Vácuo 500g;Tres Coracoes;29,99;7896005802540;true
+cafe;1072188;Cafe Melitta 250g Descafeinado;Melitta;24,99;7891021006309;true
+cafe;2299933;Café Em Cápsula Nespresso 3 Corações 56g Colômbia;Tres Coracoes;16,97;7896045113972;true
+cafe;2295393;Café Solúvel Tradicional 3 Corações Sache 40g;Tres Coracoes;7,49;7896045103003;true
+cafe;2292106;Café Em Cápsula Torrado E Moído Espresso Colômbia Nescafé Farmers Origins Caixa 44g 10 Unidades;Nescafe;23,99;8445291111257;true
+cafe;2253135;Café Em Cápsula Colômbia Starbucks 55g;Starbucks;26,99;7891000594711;true
+cafe;2243016;Café Em Cápsula Pingado Nescafé Dolce Gusto 140g;Nescafe;27,99;7891000158845;true
+cafe;2198894;Café Solúvel Liofilizado Classique L'Or Sachê 40g;Lor;9,29;7896089089905;true
+cafe;4002423;Café Starbucks Nespresso House Blend Lungo Com 10 Cápsulas 52g;Starbucks;27,99;8445291363656;true
+cafe;4002408;Café Cappuccino Lor Premium Avelã Sachet 17,8g;Lor;3,39;7896089015096;true
+cafe;2334178;Café Em Capsula Carraro Intenso 275g;Carraro;87,97;8000604003515;true
+cafe;2334127;Café Carraro Moído Ethiopia 250g;Carraro;52,99;8000604900142;true
+cafe;2334119;Café Carraro Moído Honduras 250g;Carraro;52,99;8000604001474;true
+cafe;2334097;Café Carraro Moído Rwanda 250g;Carraro;52,99;8000604001481;true
+cafe;2326086;Café Em Cápsula Chapada Diamantina Nescafé Dolce Gusto 60g;Nescafe;28,49;7891000411537;true
+cafe;2295407;Café Solúvel Granulado Descafeinado 3 Corações Sachê 40g;Tres Coracoes;11,99;7896045113293;true
+cafe;2292114;Café Em Cápsula Torrado E Moído Lungo Brazil Nescafé Farmers Origins Caixa 44g 10 Unidades;Nescafe;23,99;8445291144385;true
+cafe;2276550;Café Solúvel Em Pó Cremoso Melitta Lata 150g;Melitta;24,99;7896348301489;true
+cafe;2275236;Café Torrado E Moído Mogiana L'Or Gourmet Pouch 250g;Lor;28,99;7896089060164;true
+cafe;2203537;Café Em Cápsula Mochaccino Avelã Nescafé Dolce Gusto 170g;Nescafe;29,99;7891000803370;true
+cafe;2203502;Café Solúvel Extra Forte Nescafé 40g;Nescafe;8,19;7891000307120;true
+cafe;2199890;Cafe Grao Carraro 500g Qualita Oro;Carraro;89,99;8000604001399;true
+cafe;2198886;Café Solúvel Liofilizado Intense L'Or Sachê 40g;Lor;9,29;7896089089912;true
+cafe;2161435;Café Em Cápsula Frappe Nescafé Dolce Gusto 135g;Nescafe;28,49;7891000912645;true
+cafe;2056631;Café Torrado E Moído Intenso L'Or Torras Gourmet Sachê 250g;Lor;25,99;7896089060157;true
+cafe;2054426;Café Torrado E Moído A Vácuo Italiano Pilão Cafeteria Pacote 500g;Pilao;33,99;7896089013894;true
+cafe;1947192;Cafe Orfeu 100g Drip Coffe Intenso C/10;Orfeu;27,99;7898912704191;true
+cafe;1909924;Café Solúvel Liofilizado Nescafé Gold Vidro 100g;Nescafe;38,99;7613037064643;true
+cafe;1877054;Café Em Cápsula Torrado E Moído Espresso Colômbia L'Or Origins Collection Caixa 52g 10 Unidades;Lor;21,99;8711000362679;true
+cafe;1854518;Café Em Cápsula Torrado E Moído Espresso Fortíssimo Pilão Caixa 52g 10 Unidades;Pilao;21,99;7896089088410;true
+cafe;1794728;Cafe Caps.Baggio 50g Arom.Caramelo C/10;Baggio;25,99;7898922711554;true
+cafe;1789503;Café Em Cápsula Nescafé Dolce Gusto Espresso Intenso 10 Cápsulas;Nescafe;27,99;7891000243725;true
+cafe;1470540;Café Torrado E Moído A Vácuo Tradicional 3 Corações Pacote 250g;Tres Coracoes;16,99;7896005800362;true
+cafe;1410318;Café Bom Jesus 500g Extra Forte;Bom Jesus;24,99;7896035733449;true
+cafe;1072609;Café Bom Jesus 250g;Bom Jesus;17,99;7896035730240;true
+cafe;1072030;Café Native 90g Orgânico Liofilizado;Native;55,99;7898206500881;true
+cafe;1071254;Cafe Melitta C/ Leite 200g;Melitta;15,97;7891021007573;true
+cafe;2325870;Café Solúvel Liofilizado L'Or Ultimo Sachê 40g;Lor;9,39;7896089060218;true
+cafe;2324512;Café Grão Coffee ++ 250g Cerrado Mineiro;Bistek;39,99;602883207608;true
+cafe;2324504;Café Grão Coffee ++ 250g Chapada Minas;Bistek;39,99;602883207547;true
+cafe;2324415;Café Pó Coffee ++ 250g Clássico;Bistek;39,99;602883207516;true
+cafe;2324407;Café Pó Coffee ++ 250g Arara;Bistek;39,99;618231106295;true
+cafe;2299984;Café Torrado E Moído Extraforte Pilão Pouch 500g;Pilao;25,49;7896089013658;true
+cafe;2275244;Café Torrado E Moído Cerrado Mineiro L'Or Gourmet Pouch 250g;Lor;28,99;7896089060171;true
+cafe;2273543;Cafe Caps.Nescafe D.Gusto 60g Cerrado M;Nescafe;28,49;7891000401583;true
+cafe;2243024;Café Em Cápsula Nescafé Dolce Gusto Alpino 178g;Nescafe;28,49;7891000738481;true
+cafe;2238780;Cafe Grao Ouro 250g Caramellato;Ouro;31,99;7898925921318;true
+cafe;2199823;Cafe Po Carraro 250g Primo Mattino;Carraro;52,99;8000604001078;true
+cafe;2198932;Café Solúvel Em Pó Pilão Sachê 40g;Pilao;7,49;7896089088656;true
+cafe;2185407;Café Em Cápsula Caseiro Intenso Nescafé Dolce Gusto 90g;Nescafe;27,99;7891000586549;true
+cafe;2161427;Café Em Cápsula Latte Macchiato Nescafé Dolce Gusto 112,5g;Nescafe;27,99;7891000388655;true
+cafe;2161419;Café Em Cápsula Vanilla Nescafé Dolce Gusto 110g;Nescafe;27,99;7891000907573;true
+cafe;2161400;Café Em Cápsula Lungo Nescafé Dolce Gusto 70g;Nescafe;27,99;7891000147238;true
+cafe;2155443;Café Torrado Em Grãos Pilão Cafeteria Pacote 500g;Pilao;60,99;7896089013917;true
+cafe;2068745;Cafe Grao Moka 1kg Mr.Choc.Encorpado;Moka;179,90;7898684710185;true
+cafe;1922998;Café Torrado E Moído A Vácuo Pilão 252 Graus Pacote 500g;Pilao;25,49;7896089013849;true
+cafe;1854500;Café Em Cápsulas De Torrado E Moído Pilão Tradicional 07 52g Com 10 Cápsulas;Pilao;21,99;7896089088403;true
+cafe;1072544;Café Torrado E Moído A Vácuo Tradicional Caboclo Pacote 250g;Caboclo;16,99;7891910012459;true
+cafe;2025930;Café Em Pó 3 Corações Tradicional Vácuo 500g;Tres Coracoes;23,97;7896045102440;true
+cafe;1072137;Café Torrado E Moído A Vácuo Tradicional Pilão Pacote 500g;Pilao;25,49;7896089011357;true
+cafe;2155435;Café Em Pó 3 Corações Portinari Meninos Soltando Pipas 1947 250g;Tres Coracoes;24,99;7896045109623;true
+cafe;2218798;Café Pó União Tradicional Vácuo 500g;Uniao;19,99;7891910030378;true
+cafe;2325829;Café Em Cápsulas Lor Espresso Brazil Origens 52g Com 10 Unidades;Lor;21,99;8711000573426;true
+cafe;2218453;Café Solúvel Descafeinado Nescafé 40g;Nescafe;12,99;7891000184004;true
+cafe;2205955;Café Em Sachê Torrado E Moído Drip Coffee Tradicional 3 Corações Envelope 10g;Tres Coracoes;1,99;7896045108824;true
+cafe;2198860;Café Solúvel Liofilizado Classique L'Or Vidro 84g;Lor;23,99;7896089089929;true
+cafe;2161397;Café Em Cápsula Caseiro Nescafé Dolce Gusto 80g;Nescafe;27,99;7891000302750;true
+cafe;2102579;Café Melitta Solúvel Tradicional Granulado 40g;Melitta;6,97;7891021007429;true
+cafe;2015706;Café Solúvel Tradicional Iguaçu Lata 160g;Iguacu;25,97;7896045102365;true
+cafe;1789490;Café Em Cápsula Nescafé Dolce Gusto Espresso 10 Cápsulas;Nescafe;28,49;7891000243787;true
+cafe;1385011;Café Melitta 250g Regiões Do Brasil Cerrado;Melitta;23,47;7891021005609;true
+cafe;1072196;Café Melitta Tradicional 250g;Melitta;17,99;378910300030;true
+cafe;4002608;Café Starbucks Nespresso Ristretto Shot Com 10 Capsulas 57g;Starbucks;27,99;8445291451193;true
+cafe;2335565;Café Em Cápsula Kopenhagen Lingua De Gato Dolce Gusto 170g;Nescafe;28,49;7891000423523;true
+cafe;2324423;Café Pó Coffee ++ 250g Sul Minas;Bistek;39,99;602883207585;true
+cafe;2299968;Cafe Grao Orfeu 250g Classico;Orfeu;31,99;7898912704146;true
+cafe;2299925;Café Em Cápsula Torrado E Moído Descafeinado 3 Corações Caixa 50g 10 Unidades;Tres Coracoes;16,97;7896045112685;true
+cafe;2269015;Café Em Pó Orfeu Arara 250g;Orfeu;32,99;7898665832738;true
+cafe;2216680;Café Solúvel Em Pó Tradicional Iguaçu Sachê Leve 55g Pague 50g Refil;Iguacu;9,99;7896045111930;true
+cafe;1342070;Café Torrado E Moído A Vácuo Intenso Pilão Pacote 500g;Pilao;25,49;7896089012880;true
+cafe;4002407;Café Torrado E Moído Lor Capri Dolce Vita Encorpado Sache 250g;Lor;25,99;7896089015140;true
+cafe;4002406;Café Torrado E Moído Lor Santorini Sache 250g;Lor;25,99;7896089015157;true
+cafe;4002316;Café Solúvel Lor 84g Capri;Lor;25,99;7896089015188;true
+cafe;2324490;Café Grão Coffee ++ 250g Caparaó;Bistek;39,99;630941446218;true
+cafe;2308495;Café Em Cápsulas Carraro Avelã 55g;Carraro;23,99;8000604003485;true
+cafe;2216647;Café Solúvel Suave Gold 6 Nescafé 40g;Nescafe;12,99;7891000491249;true
+cafe;2199734;Cafe Caps.Carraro 112g Primo Mattino;Carraro;41,99;8000604900715;true
+cafe;2198878;Café Solúvel Liofilizado Intense L'Or Vidro 84g;Lor;23,99;7896089089936;true
+cafe;2160196;Café Com Leite Solúvel 3 Corações Lata 300g;Tres Coracoes;19,19;7896045111077;true
+cafe;2069261;Cafe Cappuccino Melitta 200g Choc.Avela;Melitta;15,97;7896348300840;true
+cafe;2068737;Cafe Grao Moka 1kg Bala Caramelo;Moka;179,90;7898684710178;true
+cafe;2056690;Café Solúvel Em Pó Espresso L'Or Sachê 40g;Lor;9,29;7896089089868;true
+cafe;1958607;Café Em Cápsula Colombia Starbucks 57g;Starbucks;26,99;7613036961448;true
+cafe;1843443;Cafe Caps.Baggio 50g Arom.Cho.Avela C/10;Baggio;25,99;7898952174503;true
+cafe;1810510;Café Em Cápsula Torrado E Moído Lungo Espresso L'Or Caixa 52g 10 Unidades;Lor;21,99;7896089088335;true
+cafe;1810499;Café Em Cápsula Espresso Onyx L'Or Caixa 52g 10 Unidades;Lor;21,99;8711000362631;true
+cafe;1794736;Cafe Caps.Baggio 50g Arom.Cho.Trufa C/10;Baggio;25,99;7898952174381;true
+cafe;1072277;Café Torrado E Moído A Vácuo Tradicional Pilão Pacote 250g;Pilao;16,99;7896089012637;true
+cafe;1071602;Café Solúvel Melitta Tradicional 200g;Melitta;29,99;7891021068536;true
+cafe;1072153;Café Melitta 500g Tradicional;Melitta;29,97;7891021006125;true
+cafe;1072382;Cafe Melitta Especial 500g;Melitta;48,99;7891021006866;true
+cafe;2232324;Cafe Grao Constantino 250g;Constantino;42,99;7898994760122;true
+cafe;2205882;Café Solúvel Em Pó Iguaçu Lata Pague 190g Leve 200g;Iguacu;26,39;7896045110001;true
+cafe;1940520;Café Em Cápsula Espresso Índia L'Or Origins Collection Caixa 52g 10 Unidades;Lor;21,99;8711000431108;true
+cafe;1810472;Café Em Cápsula Espresso Sontuoso L'Or Caixa 52g 10 Unidades;Lor;21,99;7896089088304;true
+cafe;1385003;Café Melitta 250g Regiões Do Brasil Mogiana;Melitta;23,47;7891021005562;true
+cafe;1384996;Café Melitta 250g Regiões Do Brasil Sul De Minas;Melitta;23,47;7891021005586;true
+cafe;1072579;Café Torrado E Moído A Vácuo Tradicional Iguaçu Pacote 500g;Iguacu;25,97;7896019205191;true
+cafe;2253186;Café Em Cápsula Caramel Macchiato Starbucks 106,5g;Starbucks;26,99;7891000144572;true
+cafe;2223600;Café Em Cápsula Torrado E Moído Espresso Extremo Pilão Caixa 52g 10 Unidades;Pilao;21,99;7896089088298;true
+cafe;2218780;Café Torrado Moído União Extra Forte 500g Vácuo;Uniao;19,99;7891910030385;true
+cafe;2335573;Café Em Cápsula Lajotinha Dolce Gusto 170g;Nescafe;28,49;7891000423707;true
+cafe;2334313;Café Em Grãos Carraro Nemaya 1kg;Carraro;169,90;8000604901668;true
+cafe;2334305;Café Em Grãos Carraro Evaluna 1kg;Carraro;189,90;8000604901651;true
+cafe;2334216;Café Em Capsula Carraro Pistacchino 224g;Carraro;43,99;8000604003157;true
+cafe;2325888;Café Solúvel Liofilizado L'Or Ultimo Vidro 84g;Lor;23,99;7896089060201;true
+cafe;2324440;Café Pó Coffee ++ 250g Cerrado Mineiro;Bistek;39,99;602883207615;true
+cafe;2324431;Café Pó Coffee ++ 250g Caparaó;Bistek;39,99;630941446201;true
+cafe;2301946;Café Em Cápsula Kit Kat Nescafé Dolce Gusto 170g;Nescafe;28,49;7891000403587;true
+cafe;2273578;Café Em Cápsula Torrado E Moído Espresso México Nescafé Farmers Origins Caixa 44g 10 Unidades;Nescafe;23,99;8445291143968;true
+cafe;2253178;Café Em Cápsula Cappuccino Starbucks 100g;Starbucks;26,99;7891000592007;true
+cafe;2161389;Café Em Cápsula Matinal Nescafé Dolce Gusto 80g;Nescafe;27,99;7891000621981;true
+cafe;2155303;Café Solúvel Lor 84g Sul Da Bahia;Lor;23,99;7896089089899;true
+cafe;2150751;Cafe Grao Melitta 500g Espresso;Melitta;64,90;7896348300970;true
+cafe;2102552;Café Solúvel Granulado Extraforte Melitta Sachê 40g;Melitta;6,97;7896348300901;true
+cafe;2102536;Café Solúvel Granulado Descafeinado Melitta Sachê 40g;Melitta;12,99;7891021007450;true
+cafe;1864963;Cafe Po Orfeu 250g Intenso;Orfeu;29,99;7898912704269;true
+cafe;1854631;Café Torrado E Moído Tradicional Pilão Pouch 500g;Pilao;25,49;7896089013634;true
+cafe;1739077;Cafe Po Baggio Gourmet 250g Espresso;Baggio;39,99;7898922711097;true
+cafe;1616757;Café Torrado E Moído A Vácuo Extraforte Caboclo Pacote 500g;Caboclo;26,99;2800043544503;true
+cafe;1573373;Café Torrado E Moído A Vácuo Extraforte 3 Corações Pacote 250g;Tres Coracoes;16,99;7896005801819;true
+cafe;1072722;Cafe Po Native 250g Original Org;Native;45,99;7898206500119;true
+cafe;1072986;Coador De Pano Café Michelon G;Michelon;8,97;7896672700958;true
+cafe;1072978;Coador Cafe Michelon Pano P;Michelon;4,99;7896672702471;true
+cafe;2324660;Coador Hauskraft Café Inox Portátil;Hauskraft;29,90;7897186087054;true
+cafe;1072862;Coador Cafe Ebenezer Sul Pano;Ebenezer;3,99;7897144401342;true
+cafe;1072900;Suporte Para Filtro De Café Melitta 103;Melitta;14,99;7891021000734;true
+cafe;1072897;Suporte Para Filtro De Café Melitta 102;Melitta;13,49;7891021000925;true
+cafe;1617850;Cápsula De Café Com Leite 3 Corações 10 Unidades;Tres Coracoes;16,97;7896005805121;true
+cafe;1872680;Refrigerante Coca Cola 220ml Pl.Cafe Lt;Coca Cola;2,99;7894900025019;true
+cafe;1617788;Cápsula De Café Descafeinado 3 Corações 10 Unidades;Tres Coracoes;16,97;7896005805022;true
+cafe;2064316;Creme Dental Colgate 70g Lum.White Cafe;Colgate;22,97;7509546670942;true
+cafe;2314223;Bebida Láctea Proteica Piracanjuba Proforce Café+ 250ml;Piracanjuba;9,29;7898215157977;true
+cafe;1524429;Filtro Permanente Para Café Michelon Nº 103;Michelon;8,99;7896672706448;true
+cafe;2015692;Cápsula De Café Espresso Forza 3 Corações 10 Unidades;Tres Coracoes;16,97;7896045101733;true
+cafe;2067340;Chocolate Hersheys Special Dark Café 60% Cacau 85g;Hersheys;10,99;7899970400988;true
+cafe;1935321;Chocolate Lacta Intense Amargo 60% Cacau Café 85g;Lacta;13,97;7622210689658;true
+cafe;1683500;Cápsula De Café Espresso Atento 3 Corações 10 Unidades;Tres Coracoes;16,97;7896005805718;true
+cafe;1617869;Cápsula De Café Filtrado Gourmet 3 Corações 10 Unidades;Tres Coracoes;16,97;7896005805114;true
+cafe;1617800;Cápsula De Café Espresso Supremo 3 Corações 10 Unidades;Tres Coracoes;16,97;7896005805008;true
+cafe;1617893;Capsula De Café Filtrado Tradicional 3 Corações 10 Unid;Tres Coracoes;16,97;7896005805107;true
+cafe;1617818;Cápsula De Café Espresso Vibrante 3 Corações 10 Unidades;Tres Coracoes;16,97;7896005805015;true
+cafe;2217260;Bebida Lactea Yopro 250ml Cafe Ex.15g Pr;Yopro;11,49;7891025124269;true
+cafe;2148021;Bebida Vegetais Café Caramelo Not Milk Caixa 1l;Not Milk;18,49;7898686950336;true
+cafe;2100886;Bebida Láctea Cappuccino Café com Leite 3 Corações 260ml;Bistek;5,97;7896045104482;true
+cafe;1937766;Leite Fermentado Integral Linhaça Activia Café Da Manhã Pote 170g;Activia;7,47;7891025117742;true
+cafe;2002604;Cápsula De Café Com Leite Latte Macchiato 3 Corações 10 Unidades;Tres Coracoes;16,97;7896005810057;true
+cafe;1937774;Leite Fermentado Integral Quinoa Activia Café da Manhã Pote 170g;Activia;7,47;7891025117773;true
+cafe;1937740;Leite Fermentado Integral Amaranto Activia Café Da Manhã Pote 170g;Activia;7,47;7891025117797;true
+cafe;2205904;Capsula De Café Espresso Gourmet Dark Roast 3 Corações 10 Unid;Tres Coracoes;16,97;7896045111251;true
+cafe;2130050;Capsula De Café Mogiana Paulista Compativel Com Nespresso 3 Corações 10 Unidades;Tres Coracoes;16,97;7896045104574;true
+cafe;2299410;Cápsula De Café Espresso Star Wars Darth Vader 3 Corações 10 Unidades;Tres Coracoes;16,97;7896045112678;true
+cafe;2333546;Bebida Lactea Nescafe 270ml Chococi.15g;Nescafe;10,99;7891000417409;true
+cafe;2333449;Bebida Lactea Nescafe 270ml Cappu.15g;Nescafe;10,99;7891000417331;true
+cafe;2333538;Bebida Lactea Nescafe 270ml Capp/Can.15g;Nescafe;10,99;7891000417348;true
+cafe;1617680;Filtro De Papel Para Cafeteira Elétrica Melitta Nº 4 Caixa 30 Unidades;Melitta;6,99;7891021002202;true
+cafe;2300753;Cafeteira Elétrica Cadence Single Up Caf230 Preto E Vermelho 220v;Cadence;79,99;7898700219746;true
+cafe;2329506;Chá Com Gás Matcha & Cafeína Natural Baer-Matcha 350ml;Bistek;12,97;7898694491456;true
+cafe;1617699;Filtro De Papel Para Cafeteira Elétrica Melitta N° 2 Caixa 30 Unidades;Melitta;5,99;7891021002196;true
+cafe;2217201;Cafe Po Cafe Ouro 250g Caramellato;Ouro;0,00;7898925921264;false
+cafe;2242001;Café Em Pó Café Do Mercado 250g Chapada Diamantina;Bistek;0,00;7898919870141;false
+cafe;1908588;Café Torrado Em Grãos Espresso Café Do Ponto Pacote 1kg;Do Ponto;0,00;7896089028973;false
+cafe;2155427;Café Em Pó 3 Corações Portinari Peneirando Café 1957 250g;Tres Coracoes;0,00;7896045109609;false
+cafe;1804634;Café Torrado E Moído Chocolate Trufado Café Do Ponto Pacote 100g;Bistek;0,00;7896089040418;false
+cafe;1618156;Café Torrado E Moído A Vácuo Tradicional Café Do Ponto Pacote 500g;Do Ponto;0,00;7896089029468;false
+cafe;1618148;Café Torrado E Moído A Vácuo Exportação Café Do Ponto Pacote 500g;Do Ponto;0,00;7896089029475;false
+cafe;2325861;Café Torrado E Moído Imola Intenso L'Or Passione Rossa Gourmet Pouch 250g;Lor;0,00;7896089015003;false
+cafe;2321653;Café Em Cápsula Torrado E Moído Espresso Nescafé Farmers Origins Caixa 46g 10 Unidades;Nescafe;0,00;8445291159969;false
+cafe;2299992;Café Torrado E Moído Extraforte Damasco Pouch 500g;Damasco;0,00;7896019115384;false
+cafe;2299380;Café Em Pó Rituais Frutas Vermelhas 3 Corações 250g;Tres Coracoes;0,00;7896045113606;false
+cafe;2221241;Cafe Grao Ouro 500g;Ouro;0,00;7898925921042;false
+cafe;2161443;Café Em Cápsula Orgânico Nescafé Dolce Gusto 80g;Nescafe;0,00;7891000452127;false
+cafe;2096994;Café Em Cápsula Breakfast Blend Starbucks 56g;Starbucks;0,00;7613287186768;false
+cafe;1958623;Café Em Cápsula Espresso Roast Starbucks 57g;Starbucks;0,00;7613036961028;false
+cafe;1958593;Café Em Cápsula Blonde Espresso Starbucks 53g;Starbucks;0,00;7613036961004;false
+cafe;2258080;Café Solúvel Granulado Extraforte Nescafé Original Sachê 40g;Nescafe;0,00;7891000248454;false
+cafe;2198916;Café Solúvel Liofilizado Intense L'Or Vidro 130g;Lor;0,00;7896089089950;false
+cafe;2198908;Café Solúvel Liofilizado Classique L'Or Vidro 130g;Lor;0,00;7896089089943;false
+cafe;2150778;Cafe Po Baggio Aromas 250g Choc.C/Avela;Baggio;0,00;7898952174565;false
+cafe;2035588;Café Em Pó Medium Colombia Starbucks 250g;Starbucks;0,00;762111364357;false
+cafe;1998684;Café Em Cápsula Torrado E Moído Espresso Guatemala L'Or Origins Collection Caixa 52g 10 Unidades;Lor;0,00;8711000460214;false
+cafe;1958615;Café Em Cápsula Pike Place Starbucks 53g;Starbucks;0,00;7613036961745;false
+cafe;1958518;Café Em Pó Verona Starbucks 250g;Starbucks;0,00;762111364418;false
+cafe;1909894;Café Em Pó Gold 6 Nescafé 250g;Nescafe;0,00;7891000283707;false
+cafe;1905309;Café Solúvel Nescafé Tradição 160g;Nescafe;0,00;7891000284230;false
+cafe;1877194;Café Torrado E Moído Tradicional Damasco Pouch 500g;Damasco;0,00;7896019115360;false
+cafe;1854526;Café Em Cápsula Torrado E Moído Espresso Extraforte Pilão Caixa 52g 10 Unidades;Bistek;0,00;7896089088427;false
+cafe;1739115;Café Em Pó Baggio Chocolate E Menta 250g;Baggio;0,00;7898922711028;false
+cafe;1739093;Café Baggio Aromas Chocolate Trufado 250g;Baggio;0,00;7898922711547;false
+cafe;1701002;Café Torrado Em Grãos Espresso Pilão Pouch 1kg;Pilao;0,00;7896089012101;false
+cafe;1430289;Café Torrado E Moído A Vácuo Intenso Damasco Pacote 500g;Damasco;0,00;7896019115056;false
+cafe;1072242;Café Torrado E Moído A Vácuo Tradicional Damasco Pacote 500g;Damasco;0,00;7896019112116;false
+cafe;1072102;Cafe Guidalli 500g Almofada;Guidalli;0,00;7896350100032;false
+cafe;1854623;Café Torrado Em Grãos Espresso Forza L'Or Gourmet Pacote 500g;Lor;0,00;7896089060065;false
+cafe;1072285;Cafe Po Guidalli 250g Extra Forte Vacuo;Guidalli;0,00;7896350100117;false
+cafe;2334240;Café Em Grãos Carraro Ethiopia 1kg;Carraro;0,00;8000604001870;false
+cafe;2334194;Café Em Capsula Carraro Rwanda 55g;Carraro;0,00;8000604003447;false
+cafe;2324393;Cafe Grao Coffee ++ 1kg Super Crema Int.;Bistek;0,00;619205720004;false
+cafe;2301938;Café Em Cápsula Moça Brigadeiro Nescafé Dolce Gusto 170g;Nescafe;0,00;7891000409404;false
+cafe;2299356;Café Em Pó Rituais Chocolate 3 Corações 250g;Tres Coracoes;0,00;7896045113613;false
+cafe;2299305;Café Torrado Em Grãos Chocolate 3 Corações Rituais 85+ Pouch 250g;Tres Coracoes;0,00;7896045113378;false
+cafe;2276534;Café Torrado E Moído Terras Capixabas Melitta Regiões Brasileiras Pacote 250g;Melitta;0,00;7896348301441;false
+cafe;2258099;Café Solúvel Nescafe Matinal Leve 50g Pague 40g;Nescafe;0,00;7891000198414;false
+cafe;2216639;Café Solúvel Equilibrado Gold 8 Nescafé 40g;Nescafe;0,00;7891000794135;false
+cafe;2150760;Café Em Pó Baggio Aromas Caramelo 250g;Baggio;0,00;7898922711042;false
+cafe;2116316;Café Em Cápsula Espresso Baunilha L'Or Caixa 52g 10 Unidades;Lor;0,00;8711000488218;false
+cafe;2116278;Café Cappuccino Chocolate Nescafé 180g;Nescafe;0,00;7891000892473;false
+cafe;2056704;Café Solúvel Em Pó Espresso L'Or Vidro 100g;Lor;0,00;7896089089875;false
+cafe;1998749;Cafe Caps.Illy 57g Espr.Classico C/10;Illy;0,00;8003753158679;false
+cafe;1958631;Café Em Cápsula Verona Starbucks 55g;Starbucks;0,00;7613036958943;false
+cafe;1958585;Café Em Cápsula House Blend Lungo Starbucks 57g;Starbucks;0,00;7613036957069;false
+cafe;1958500;Café Pó Pike Place Starbucks 250g;Starbucks;0,00;762111364388;false
+cafe;1913131;Cafe Caps.3 Coracoes 80g Organico;Bistek;0,00;7896005808542;false
+cafe;1909908;Café Em Pó Gold 8 Nescafé 250g;Nescafe;0,00;7891000283783;false
+cafe;1864599;Café Em Pó Tradicional Jandaia 500g;Jandaia;0,00;7896699200103;false
+cafe;1713990;Café Torrado E Moído A Vácuo Extraforte Damasco Pacote 500g;Damasco;0,00;7896019115278;false
+cafe;1072510;Cafe Guidalli 250g Almofada;Guidalli;0,00;7896350100025;false
+cafe;1072480;Café Melitta 250g Extra Forte;Melitta;0,00;7891021006927;false
+cafe;2299259;Cafe Grao Origem 500g;Origem;0,00;619205261835;false
+cafe;1072269;Cafe Po Guidalli 500g;Guidalli;0,00;7896350100087;false
+cafe;1072129;Cafe Po Guidalli 250g;Guidalli;0,00;7896350100070;false
+cafe;2347784;Café Torrado E Moído Chapada Diamantina Nescafé Origens Do Brasil Pacote 250g;Nescafe;0,00;7891000425626;false
+cafe;2334283;Café Em Grãos Carraro Catuai 1kg;Carraro;0,00;8000604901644;false
+cafe;2334151;Café Em Capsula Carraro Ethiopia 55g;Carraro;0,00;8000604003423;false
+cafe;2334135;Café Em Capsula Carraro Nocciolino 224g;Carraro;0,00;8000604001290;false
+cafe;2325896;Café Solúvel Liofilizado Imola Intenso L'Or Passione Rossa Vidro 84g;Lor;0,00;7896089015010;false
+cafe;2325853;Café Em Cápsulas Lor Espresso Hazelnut Flavour 52g Com 10 Unidades;Lor;0,00;8711000712580;false
+cafe;2324466;Café Grão Coffee ++ 250g Arara;Bistek;0,00;618231106301;false
+cafe;2317168;Café Solúvel Extra Forte Nescafé 160g Grátis 16g;Nescafe;0,00;7891000417515;false
+cafe;2299330;Café Torrado Em Grãos Frutas Vermelhas 3 Corações Rituais 85+ Pouch 250g;Tres Coracoes;0,00;7896045113361;false
+cafe;2299240;Café Torrado Em Grãos Espresso 3 Corações Gourmet Pacote 500g;Tres Coracoes;0,00;7896045113033;false
+cafe;2295415;Café Solúvel Liofilizado Iguaçu Gourmet Sachê 40g Refil;Iguacu;0,00;7896045113217;false
+cafe;2216620;Café Solúvel Intenso Gold 9 Nescafé 40g;Nescafe;0,00;7891000357064;false
+cafe;2205866;Café Com Leite Solúvel 3 Corações Sache 20g;Tres Coracoes;0,00;7896005807521;false
+cafe;2155265;Café Solúvel Gold Equilibrado Nescafé 100g;Nescafe;0,00;7891000631713;false
+cafe;2116260;Café Cappuccino Tradicional Nescafé 180g;Nescafe;0,00;7891000613597;false
+cafe;2116235;Cafe Cappuccino Nescafe 180g Alpino;Nescafe;0,00;7891000866993;false
+cafe;1958496;Café Em Pó House Blend Starbucks 250g;Starbucks;0,00;762111364364;false
+cafe;1909916;Café Em Pó Gold 9 Nescafé 250g;Nescafe;0,00;7891000283745;false
+cafe;1864920;Cafe Caps.Orfeu 50g Classico;Orfeu;0,00;7898912704085;false
+cafe;1854542;Café Em Cápsula Torrado E Moído Lungo Intenso Pilão Caixa 52g 10 Unidades;Pilao;0,00;7896089088380;false
+cafe;1072200;Cafe Guidalli Extra Forte 500g Vacuo;Guidalli;0,00;7896350100063;false
+cafe;1989294;Coador Cafe Michelon D.Unica;Michelon;0,00;7896672705298;false
+cafe;1773615;Coador De Café Michelon Tamanho M;Michelon;0,00;7896672702532;false
+cafe;2145561;Bebida Vegetal Café Latte A Tal Da Castanha 200ml;A Tal Da Castanha;0,00;7898692300644;false
+cafe;1864637;Colher Desc.Strawplast Cafe Crist.C/100;Strawplast;0,00;7898202611970;false
+cafe;812269;Garrafa Termica Termolar Magic 1,8l Cafe;Termolar;0,00;7891023542225;false
+cafe;1898434;Cápsula De Café Espresso Colômbia 3 Corações 10 Unidades;Tres Coracoes;0,00;7896005807767;false
+cafe;1617796;Cápsula De Café Espresso Pleno 3 Corações 10 Unidades;Tres Coracoes;0,00;7896005804995;false
+cafe;2130068;Capsula De Café Orgânico Compatível Com Nespresso 3 Corações 10 Unidades;Tres Coracoes;0,00;7896045111305;false
+cafe;2130041;Capsula De Café Intenso Compatível Com Nespresso 3 Corações 10 Unidades;Tres Coracoes;0,00;7896045104550;false
+cafe;2130033;Capsula De Café Cerrado Mineiro Compativel Com Nespresso 3 Corações 10 Unidades;Tres Coracoes;0,00;7896045104567;false
+cafe;2205920;Cápsula De Café Portinari Meninos Soltando Pipas 1947 3 Corações 10 Unid;Tres Coracoes;0,00;7896045109784;false
+cafe;2002230;Cafeteira Arno Dolce Gusto Gen.Bas.Br;Arno;0,00;3016661158858;false
+cafe;2280825;Cafeteira Elétrica Britânia 220v Preto;Britania;0,00;7891356116230;false
+cafe;2166984;Cafeteira Elétrica Agratto Thermo 220v;Agratto;0,00;7898461966545;false
+cafe;2261162;Cafeteira Espresso Multifunções Ce1100g-B2 Black Decker 220v;Black Decker;0,00;7899497690572;false
+cafe;2303221;Oster Cafeteira 2day Inox 2 Em 1 Com Copo Térmico 220v Preto;Oster;0,00;7898700210316;false
+cafe;2329514;Chá Mate Com Gás Cafeína Natural Baer-Mate 350ml;Bistek;0,00;7898694491432;false
+cafe;2300745;Cafeteira Elétrica Cadence Single Up Caf230 Preto E Vermelho 127v;Cadence;0,00;7898700219739;false
+cafe;2163845;Prensa Francesa Haüskraft 350ml Aço Inoxidável Preto Cafeteira;Hauskraft;0,00;7896980464207;false
+leite;2193795;Biscoito Leite Maltado Recheio Doce de Leite Piraquê 85g;Piraque;2,99;7896024761330;true
+leite;3080501;Pão De Leite 300g;Bistek;13,99;3000030805016;true
+leite;1065823;Leite De Coco Sococo 200ml;Sococo;8,89;7896004400075;true
+leite;1613081;Leite De Arroz Risovita 1l;Risovita;19,99;7896084700294;true
+leite;1273418;Creme De Leite Tirol 200g;Tirol;2,37;7896256600780;true
+leite;2105772;Chocolate Ao Leite Classic 150g;Nestle;14,99;7891000361214;true
+leite;1824643;Leite Molico Desnatado 1l;Molico;5,47;7898215157441;true
+leite;2125226;Biscoito Bauducco 335g Leite;Bauducco;9,19;7891962068039;true
+leite;1043846;Chocolate Toblerone 100g Ao Leite;Toblerone;26,99;7614500010013;true
+leite;2109522;Biscoito Isabela Leite 350g;Isabela;6,99;7896022018320;true
+leite;2290529;Chocobiscuit Garoto 78g Ao Leite;Garoto;5,47;7891000402931;true
+leite;1067893;Creme De Leite Nestlé 200g;Nestle;5,99;7891000126905;true
+leite;1523465;Chocolate Milka Ao Leite 90g;Milka;15,89;7622210732774;true
+leite;2139375;Chocolate Ao Leite Milka 250g;Milka;44,99;7622210690883;true
+leite;1194860;Pão De Leite Thabrulai 400g;Trabrulai;8,39;7896999099049;true
+leite;1542540;Creme De Leite Piracanjuba 200g;Piracanjuba;3,19;7898215151784;true
+leite;1058916;Doce De Leite Tirol 350g;Tirol;8,47;7896256600926;true
+leite;2290510;Chocobiscuit Nestlé Ao Leite 78g;Nestle;7,99;7891000402979;true
+leite;2149591;Chocolate Lacta Ao Leite 80g;Lacta;7,27;7622210673831;true
+leite;1038036;Biscoito Parati 370g Leite;Parati;7,49;7896011102597;true
+leite;4000760;Biscoito Leite Renata 360g;Renata;7,49;;true
+leite;1206079;Leite Longa Vida Integral Tirol 1l;Tirol;4,57;7896256600220;true
+leite;1625241;Leite Tirol Tampa Semi-Desnatado 1 Litro;Tirol;4,87;7896256603446;true
+leite;1840312;Leite Uht Parmalat 1l Integral Pet;Parmalat;5,67;7891097001024;true
+leite;2101041;Leite Uht Leitissimo 1l Integral Zr.Lact;Leitissimo;9,57;7898939247022;true
+leite;1630318;Leite Em Pó Molico Desnatado Lata 280g;Molico;20,97;7891000101513;true
+leite;1068210;Leite Condensado Integral Moça 395g;Moca;11,99;7891000100103;true
+leite;2220776;Leite Uht Piracanjuba 1l  A2 Zr.Lactose;Piracanjuba;7,37;7898215157922;true
+leite;1737716;Leite Fermentado Yakult 480g Light C/6;Yakult;15,47;7891156003068;true
+leite;1950860;Leite Past.Trevisan 500ml Integ Tipo A;Trevisan;4,87;7898962937020;true
+leite;2128497;Leite Fermentado Activia 510g Mor C/6;Activia;14,97;7891025123200;true
+leite;2077817;Leite Fermentado Vigor 800g Minions;Vigor;11,97;7896625210275;true
+leite;2050021;Leite Uht Naturalle Desnatado 1l;Colonia Holandesa;6,57;7898290434956;true
+leite;2018225;Leite Coco Po Qualicoco 100g;Qualicoco;26,99;7896552906838;true
+leite;2015765;Leite Po Elege 380g Inst.Integral Lata;Elege;18,49;7896079500588;true
+leite;1992180;Leite Condensado Zero Lactose Moça 395g;Nestle;13,49;7891000317396;true
+leite;1950886;Leite Past.Trevisan 1l Desnatado Tipo A;Trevisan;9,97;7898962937051;true
+leite;1840339;Leite Uht Parmalat 1l Desnatado Pet;Parmalat;5,67;7891097001048;true
+leite;1755048;Leite Piracanjuba Crescer Sem Lactose 1l;Piracanjuba;6,77;7898215153108;true
+leite;1703854;Leite Ferm.Vigor 450g Minions C/6;Vigor;7,87;7891999904805;true
+leite;1206770;Leite Pasteurizado Homogeneizado Integral Tirol Pacote 1l;Tirol;6,17;7896294900163;true
+leite;1206052;Leite Longa Vida Parmalat Integral 1l;Parmalat;4,57;7896034610017;true
+leite;1504002;Leite Condensado Tirol 395g Tp;Tirol;4,97;7896256604962;true
+leite;1385119;Leite Uht Semidesnatado Zero Lactose Tirol 1l;Tirol;5,57;7896256601824;true
+leite;1460072;Leite Condensado Semidesnatado Piracanjuba 395g;Piracanjuba;5,99;7898215152002;true
+leite;1206036;Leite Longa Vida Parmalat Desnatado 1l;Parmalat;4,57;7896034610031;true
+leite;2050048;Leite Uht Naturalle Integral 1l;Colonia Holandesa;6,57;7898290434963;true
+leite;2189348;Leite Fermentado Desnatado Morango Zero Lactose Activia Triplo Zero Garrafa 800g;Activia;18,47;7891025124030;true
+leite;1816128;Leite Uht Piracanjuba 1l Desnatado C/Tp;Piracanjuba;4,57;7898215151722;true
+leite;1470434;Leite Coco Mais Coco 500ml Vidro;Mais Coco;18,99;7896004401140;true
+leite;4002616;Leite Fermentado Activia Frutas Vermelhas Zero Lactose 800g;Activia;18,47;7891025125709;true
+leite;4002401;Leite Condensado Semi Desnatado Moça Caixinha 395g - 10% Grátis;Moca;8,09;7891000356135;true
+leite;2189330;Leite Fermentado Activia 800g Vit.Frutas;Activia;16,97;7891025123484;true
+leite;2098180;Leite Po La Serenissima 300g Int.S/Lact;La Serenissima;22,99;7896048706126;true
+leite;2050030;Leite Uht Naturalle 1l Semidesnatado;Colonia Holandesa;6,57;7898290434949;true
+leite;1950878;Leite Past.Trevisan 500ml S/Lact Tipo A;Trevisan;5,77;7898962937082;true
+leite;1937766;Leite Fermentado Integral Linhaça Activia Café Da Manhã Pote 170g;Activia;7,47;7891025117742;true
+leite;1787845;Leite Uht Ninho 1l Semidesnat Zr.Lactose;Ninho;6,97;7898215157434;true
+leite;1744925;Leite Fermentado Activia 170g Ameixa;Activia;4,47;7891025109419;true
+leite;1703463;Leite Coco Sococo 200ml Rtc Vidro;Sococo;7,99;7896004400686;true
+leite;1562312;Leite Pasteurizado Holandês Tipo C 1 Litro;Holandes;6,57;7896733400087;true
+leite;1846752;Nivea Sabonete Em Barra Leite 85g;Nivea;2,69;4005900521910;true
+leite;2132800;Chocolate Ao Leite Classic Nestlé 80g;Nestle;9,79;7891000369098;true
+leite;1959352;Creme De Leite Trevisan 490g Tipo A;Trevisan;27,00;7898962937105;true
+leite;2210282;Framboesas Franuí Chocolate Com Leite 150g;Franui;38,97;7798147783223;true
+leite;2292688;Creme Leite Purolatte 220g Pasteurizado;Bistek;13,97;7898968625181;true
+leite;2132109;Chocolate Ao Leite Garoto Tablete 80g;Garoto;7,99;7891008123975;true
+leite;2119994;Chocolate Cachet Belga Ao Leite 100g;Cachet;25,99;5412956214656;true
+leite;1228188;Sobremesa Vigor 180g Chocolate E Leite;Vigor;6,67;7891999014153;true
+leite;1071254;Cafe Melitta C/ Leite 200g;Melitta;15,97;7891021007573;true
+leite;131504;Bolo De Leite Ninho Bistek 500g;Bistek;19,99;13150;true
+leite;1816110;Leite Uht Piracanjuba 1l Integral C/Tp;Piracanjuba;4,57;7898215151708;true
+leite;4001204;Leite Condensado Moça 395g Grátis 15%;Moca;7,99;7891000366059;true
+leite;1206044;Leite Longa Vida Parmalat Semidesnatado  1l;Parmalat;4,57;7896034610024;true
+leite;1223151;Leite Fermentado Yakult C/  6 Un. 480g;Yakult;14,27;7891156001040;true
+leite;1816136;Leite Uht Piracanjuba 1l Semidesnat C/Tp;Piracanjuba;4,57;7898215151760;true
+leite;1625250;Leite L.Vida Tirol 1l Desnatado T.Rosca;Tirol;4,87;7896256603422;true
+leite;1382284;Leite L.Vida Ninho 1lt Zr Lacto.+Vit Int;Ninho;6,97;7898215157410;true
+leite;1223356;Leite Fermentado Bob Esponja 480g Morango;Elege;7,57;7891097087435;true
+leite;2256690;Leite Em Pó Ninho Adulto Lata 350g;Ninho;20,97;7891000397077;true
+leite;2189356;Leite Fermentado Desnatado Ameixa Zero Lactose Activia Triplo Zero Garrafa 800g;Activia;18,47;7891025124023;true
+leite;2120470;Leite Uht Piracanjuba 1l Semidesnat A2;Piracanjuba;7,97;7898215157786;true
+leite;1382276;Leite Longa Vida Ninho Levinho 1 Litro Semidesnatado;Ninho;5,47;7891000076217;true
+leite;2285630;Leite Uht Parmalat 1l Zymil Semidesn S/L;Parmalat;5,87;7891097001062;true
+leite;2224003;Leite Po Piracanjuba 380g Integral A2;Piracanjuba;24,99;7898215157885;true
+leite;2189321;Leite Fermentado Parcialmente Desnatado Aveia Activia Garrafa 800g;Activia;16,97;7891025123460;true
+leite;1299743;Leite L.Vida Ninho 1lt Tradicional +Vit Integral;Ninho;5,47;7898215157403;true
+leite;2120488;Leite Uht Leitissimo 1l Semidesn Zr.Lact;Leitissimo;9,57;7898939247206;true
+leite;1950894;Leite Pasteurizado Fazenda Trevisan Tipo A Sem Lactose 1l;Trevisan;10,47;7898962937075;true
+leite;1937774;Leite Fermentado Integral Quinoa Activia Café da Manhã Pote 170g;Activia;7,47;7891025117773;true
+leite;1937740;Leite Fermentado Integral Amaranto Activia Café Da Manhã Pote 170g;Activia;7,47;7891025117797;true
+leite;1840320;Leite Uht Parmalat 1l Semidesnatado Pet;Parmalat;5,67;7891097001031;true
+leite;1744887;Leite Fermentado Activia 170g Morango;Activia;4,47;7891025109396;true
+leite;1708481;Leite Uht Tirol 1l Integral C/Tp;Tirol;4,87;7896256601848;true
+leite;2228750;Leite Pó Integral Ninho Lata Leve 380g Pague 342g;Ninho;18,87;7891000340981;true
+leite;1822950;Leite Pó Instantâneo Integral Piracanjuba 400g;Piracanjuba;19,49;7898215152439;true
+leite;2273675;Leite Pó Instantâneo Integral Ninho Lata 380g Grátis 10%;Ninho;18,87;7891000399590;true
+leite;2256703;Leite Pó Instantâneo Integral Ninho 380g;Ninho;20,97;7891000393284;true
+leite;1950916;Leite Pasteurizado Integral Tipo A Fazenda Trevisan 1l;Trevisan;9,97;7898962937013;true
+leite;1822942;Leite Em Pó Piracanjuba Desnatado Instantâneo 400g;Piracanjuba;19,99;7898215152484;true
+leite;1266519;Leite Condensado Semidesnatado Moça 395g;Moca;8,99;7891000065440;true
+leite;2102358;Leite Pó Integral Tirol Pacote 400g;Tirol;18,99;7896256603743;true
+leite;2101068;Leite Uht Leitissimo 1l Integral;Leitissimo;9,37;7898939247015;true
+leite;2040166;Leite Pó Ninho Integral 380g;Nestle;20,97;7891000140307;true
+leite;1465988;Leite Em Pó Integral Instantâneo Aurora 400g;Aurora;17,99;7891164027681;true
+leite;1299751;Leite Desnatado Molico +Proteína Zero Lactose 1l;Molico;8,97;7891000066607;true
+leite;2050056;Leite Uht Naturalle Integral 200ml;Colonia Holandesa;1,37;7898290435571;true
+leite;2238420;Leite Past.Purolatte 1l Tipo A Integral;Bistek;8,97;7898968625013;true
+leite;2101033;Leite Uht Desnatado Letíssimo 1l;Leitissimo;9,37;7898939247039;true
+leite;1950908;Leite Past.Trevisan 1l Semidesnat Tipo A;Trevisan;9,97;7898962937037;true
+leite;1736558;Leite Condensado Tirol Zero Lactose 395g;Tirol;8,99;7896256604917;true
+leite;1673629;Leite Condensado Piracanjuba 395g S/Lact;Piracanjuba;8,79;7898215151999;true
+leite;2189305;Leite Fermentado Parcialmente Desnatado Morango Activia Garrafa 800g;Activia;16,97;7891025123477;true
+leite;2146134;Leite Uht Piracanjuba 1l Desnatado +Calc;Piracanjuba;5,97;7898215157816;true
+leite;1922238;Leite Ferm.Activia 170g Ameixa Zero;Activia;4,67;7891025117131;true
+leite;1655396;Leite Uht Molico 1l Desnatado Zr.Lactose;Molico;6,97;7898215157458;true
+leite;1194666;Pao S.Boys 450g Leite;Seven Boys;7,47;7891193010081;true
+leite;2215063;Chocolate ao Leite Neugebauer Pacote 80g;Neugebauer;6,57;7891330019328;true
+leite;2111616;Biscoito Passatempo Leite Maltado 150g;Passatempo;4,49;7891000365267;true
+leite;1826590;Creme Leite Piracanjuba 200g Gourmet;Piracanjuba;6,29;7898215151975;true
+leite;2207362;Hidratante Origem 380ml Leite/Aveia;Origem;11,49;7896085873140;true
+leite;2132133;Chocolate Ao Leite Crocante Garoto 80g;Garoto;7,99;7891008124071;true
+leite;2123886;Chocolate Vitao 70g Ao Leite 40%;Vitao;19,37;7896063285163;true
+leite;2119986;Chocolate Cachet Belga Ao Leite 300g;Cachet;65,99;5412956216414;true
+leite;1571842;Biscoito Casaredo 250g Rosca Leite;Casaredo;5,99;7896408440592;true
+leite;1780727;Biscoito Leite Com Chocolate Isabela 350g;Isabela;6,99;7896022086855;true
+leite;1737520;Chocolate Bis Xtra Ao Leite 45g;Lacta;5,39;7622300811693;true
+leite;1618369;Chocolate Ao Leite Diet Classic 25g;Nestle;6,69;7891000098844;true
+leite;1294016;Bombom Alpino Ao Leite Nestlé 195g;Nestle;33,99;7891000067253;true
+leite;1045075;Chocolate Garoto Baton Ao Leite 16g;Garoto;2,39;78912359;true
+leite;2010623;Chocolate Nestlé Suflair Ao Leite 80g;Nestle;9,79;7891000455562;true
+leite;2097249;Chocolate Ao Leite Com Amendoim Classic 150g;Nestle;14,99;7891000358887;true
+leite;1408810;Biscoito Recheado De Leite Passatempo 150g;Passatempo;4,49;7891000051436;true
+leite;2321572;Chocolate Lacta Chocolate Ao Leite 28g;Lacta;4,49;7622202258459;true
+leite;2243040;Chocolate Ao Leite Crunch Garoto 80g;Garoto;7,99;7891000397107;true
+leite;2188414;Chocolate Dori Disqueti Ao Leite 60g;Dori;5,99;7896058599398;true
+leite;2151014;Biscoito Suspirolandia 200g Leite Cond;Suspirolandia;7,99;7898747439275;true
+leite;2144204;Chocolate Excelsium 100g Dino Ao Leite;Cupido;29,99;5400265037394;true
+leite;2085453;Biscoito Casaredo 500g Rosca Leite;Casaredo;11,49;7896408439701;true
+leite;1863606;Pudim Batavo 200g Leite Condensado;Batavo;9,47;7891097000881;true
+leite;2283972;Chocolate Lacta Ao Leite Tamanho Família 145g;Lacta;12,97;7622210534835;true
+leite;2218470;Chocolate Bis Original Ao Leite 100,8g;Lacta;6,15;7622210575975;true
+leite;2215128;Chocolate ao Leite com Caramelo Neugebauer Pacote 80g;Neugebauer;6,57;7891330019311;true
+leite;2092468;Chocolate Ao Leite Com Avelãs Garoto Talento 85g;Garoto;9,99;7891008121728;true
+leite;1673610;Creme De Leite Piracanjuba 200g Zero Lactos;Piracanjuba;4,69;7898215151982;true
+leite;2082977;Doce De Leite Reserva Minas Vidro 650g;Reserva De Minas;27,99;7898125760182;true
+leite;1736540;Doce De Leite Tirol 350g Zero Lactose;Tirol;13,99;7896256604528;true
+leite;690201;Locao Limpeza Leite Colonia 100ml Orig;Leite Colonia;6,91;7896094924611;true
+leite;2215080;Chocolate ao Leite com Amendoim Neugebauer Pacote 80g;Neugebauer;6,57;7891330019373;true
+leite;2197618;Biscoito Recheio Doce De Leite Bono 90g;Bono;3,99;7891000376928;true
+leite;2128306;Chocolate Lacta Bisão Ao Leite 201,6g;Lacta;10,47;7622210572080;true
+leite;2256045;Chocolate Ao Leite 1891 Supreme Caixa 90g;Neugebauer;11,97;7891330019571;true
+leite;2097516;Doce De Leite Tradicional Linea Sem Açúcar 210g;Linea;35,99;7896001215467;true
+leite;1962540;Doce De Leite Piracanjuba 350g Zero Lactose;Piracanjuba;12,99;7898215150480;true
+leite;4000236;Suplemento Super Coffee Doce De Leite 10g;Super Coffee;8,99;40141751867;true
+leite;2355159;Wafer Naked Nuts 26g Chocolate Ao Leite;Naked Nuts;8,99;742832220347;true
+leite;2313367;Chocolate Ao Leite Prestígio Chocotrio Garoto 90g;Garoto;9,99;7891000409640;true
+leite;2218577;Merengue Ana Julia Leite Condensado 100g;Ana Julia;6,69;7898958716301;true
+leite;2215098;Chocolate ao Leite com Flocos Neugebauer Pacote 80g;Neugebauer;6,57;7891330019366;true
+leite;1043811;Kinder Chocolate Ao Leite 4 Unis 50g;Kinder;14,49;8000500033784;true
+leite;690236;Locao Limpeza Leite Colonia 100ml Fant;Leite Colonia;6,91;7896235353263;true
+leite;2245272;Biscoito Rosquinha Leite Parati Pacote 250g;Parati;6,79;7896004009889;true
+leite;2163322;Chocolate Ao Leite Lacta Diamante Negro 80g;Lacta;7,27;7622210674050;true
+leite;2132150;Chocolate Ao Leite Com Castanha De Caju Garoto 80g;Garoto;7,99;7891008124170;true
+leite;1861425;Creme De Leite Zero Lactose Nestlé 200g;Nestle;6,99;7891000253182;true
+leite;2132125;Chocolate Ao Leite Caju E Passas Garoto 80g;Garoto;7,99;7891008124828;true
+leite;2361450;Biscoito Natal Bauducco 110g Leite/Choc;Bauducco;9,99;7891962079363;true
+leite;2147971;Creme De Leite Not Sem Glúten Sem Lactose 200g;Notco;7,39;7898686950565;true
+leite;1962566;Biscoito Lowcucar 115g Leite Zr.Lac;Lowcucar;10,97;7896292002791;true
+leite;1067869;Creme De Leite Original Nestlé 300g Lata;Nestle;9,29;7891000120101;true
+leite;2149630;Chocolate Ao Leite Com Amendoim Lacta Shot 80g;Lacta;7,27;7622210674395;true
+leite;1750127;Creme Leite Tirol 200g Zero Lactose;Tirol;4,59;7896256604511;true
+leite;2103630;Biscoito Ana Julia 200g Leite Condensado;Ana Julia;5,47;7898958716110;true
+leite;2300370;Sobremesa Danette Cremosão Doce De Leite 90g;Danette;3,87;7891025124917;true
+leite;2368480;Wafer Ao Leite Bib'S Sticks Pacote 29g;Bibs;3,69;7891330020881;true
+leite;2351358;Pipoca Artesanal Mais Pura 100g Doce Leite;Mais Pura;13,99;7908066400594;true
+leite;2095114;Chocolate Lacta Ao Leite Com Recheio De Oreo 90g;Lacta;7,27;7622210567567;true
+leite;1872117;Kinder Chocolate ao Leite 6 unis 75g;Kinder;18,99;7898024397410;true
+leite;1489739;Chocolate Vitao 30g Ao Leite Cereais Zero;Vitao;8,99;7896063282049;true
+leite;1368389;Doce Leite Vitao Puro Sem Açúcar 200g;Vitao;29,97;7896863214394;true
+leite;1617850;Cápsula De Café Com Leite 3 Corações 10 Unidades;Tres Coracoes;16,97;7896005805121;true
+leite;2318210;Doce de Leite Cremoso Mu-Mu Vidro 420g;Mumu;22,97;7891110071959;true
+leite;2193671;Barra Fruta B.Brasil 22g Kids Ao Leite;Banana Brasil;3,79;7896798603348;true
+leite;2097265;Chocolate Ao Leite Com Biscoito Duo Cookie Classic 150g;Nestle;14,99;7891000359006;true
+leite;2218534;Sequilhos Fernandes De Leite Condensado Sem Glúten Sem Lactose 200g;Fernandes;8,99;7898301280077;true
+leite;2092506;Chocolate Branco Doce De Leite Garoto Talento 85g;Garoto;9,99;7891008121629;true
+leite;1049445;Flocos De Arroz Cobertura Chocolate Ao Leite Bib'S 40g;Bibs;3,97;7891330009176;true
+leite;4001596;Chocolate Ao Leite Haoma Banana E Castanha De Caju 25g;Haoma;12,99;7898766811151;true
+leite;1921177;Iogurte Yopro 250g Doce Leite 15g Prot;Yopro;10,47;7891025115588;true
+leite;1524100;Composto Lácteo Leite Sol Sem Açúcar 400g Sachê;Blendy;9,91;7896048705716;true
+leite;1251899;Bala Fruit-Tella Morango Com Creme De Leite 41g;Fruittella;4,29;7895144028019;true
+leite;2005832;Biscoito Leite Maltado Cobertura Chocolate Piraquê 80g;Piraque;5,49;7896024760289;true
+leite;4000738;Barra de Chocolate Ao Leite Mais Cremoso Divine Sem Glúten 70g;Divine;8,29;7899516211450;true
+leite;2302420;Chocolate Ao Leite Recheio Brigadeiro Tortuguita 15,5g;Arcor;1,99;7898142865082;true
+leite;2117819;Pasta Amendoim Amendo Power 450g D.Leite;Amendo Power;29,99;7896181712275;true
+leite;2092484;Chocolate Ao Leite Castanha Do Pará Garoto Talento 85g;Garoto;9,99;7891008121773;true
+leite;1537890;Bala Fruit-Tella Caramelo E Leite Condensado 41g;Fruittella;4,29;7895144025117;true
+leite;1491610;Kinder Chocolate Ao Leite 1 Unidade 12,5g;Kinder;3,49;80050315;true
+leite;1368435;Doce Cocada Vitao 200g Ao Leite Zr.Ac;Vitao;38,99;7896063282001;true
+leite;2303094;Creme De Leite Uht Leitíssimo 20% De Gordura 200g;Leitissimo;2,99;7898939247077;true
+leite;2283999;Chocolate Lacta Ao Leite Shot Tamanho Família 145g;Lacta;12,97;7622210534866;true
+leite;1823116;Chocolate Kitkat 4 Fingers Ao Leite 41,5g;Nestle;5,99;7891000248768;true
+leite;1043137;Kinder Bueno Chocolate Ao Leite 2 Unidades 43g;Kinder Bueno;10,99;80052760;true
+leite;2252260;Bombom Chocolate Suiço Lindt Lindor Ao Leite 37g;Lindt;18,99;8003340005003;true
+leite;2246961;Chocolate Ao Leite Recheio Baunilha Tortuguita 15,5g;Arcor;1,99;7898142865044;true
+leite;2160196;Café Com Leite Solúvel 3 Corações Lata 300g;Tres Coracoes;19,19;7896045111077;true
+leite;2097370;Chocolate Ao Leite Castanha De Caju Garoto Talento 85g;Garoto;9,99;7891008122213;true
+leite;2064359;Doce De Leite Com Chocolate Mu-Mu Pote 350g;Mumu;9,47;7891110071935;true
+leite;1903519;Biscoito Ao Leite Bauducco Choco Biscuit Pacote 80g;Bauducco;6,47;7891962056500;true
+leite;2216310;Chocolate Ao Leite Lacta Com Recheio Sonho De Valsa 98g;Lacta;7,27;7622210528186;true
+leite;2064367;Doce De Leite Tradicional Mu-Mu Pote 350g;Mumu;9,47;7891110071942;true
+leite;2351650;Pé De Moça Guimarães 100g Com Leite Condensado Moça;Bistek;8,97;7896775101317;true
+leite;2116774;Cobertura Dr.Oetker 350g Ch.Leite Moeda;Dr Oetker;21,49;7891048014547;true
+leite;2092476;Chocolate Ao Leite Com Amêndoas E Passas Garoto Talento 85g;Garoto;9,99;7891008121827;true
+leite;1881256;Bebida Leite Coco Copra 900ml Zr.Lac;Copra;21,99;7898596081014;true
+leite;1883887;Flocos De Arroz Cobertura Chocolate Ao Leite Bib'S Sachê 120g;Bibs;14,99;7891330017126;true
+leite;1575350;Confeito De Amendoim Cobertura Chocolate Ao Leite Bib'S Pacote 40g;Bibs;3,97;7891330015139;true
+leite;4000764;Bombons Chocolate Lindt Lindor Ao Leite 25g Com 2 Unidades;Lindt;12,99;7908492701272;true
+leite;2320517;Chocolate Ao Leite Recheio Caramelo Lacta Recheados Pacote 104g;Lacta;7,27;7622202288913;true
+leite;2149621;Chocolate Branco E Ao Leite Lacta Diamante Negro Laka 80g;Lacta;7,27;7622210575630;true
+leite;2166550;Ferrero Rocher Tablete Ao Leite Com Avelã 1 Unidade 90g;Ferrero Rocher;24,99;8000500359488;true
+leite;2256622;Biscoito Leite Maltado Black Cobertura Chocolate Piraquê 80g;Piraque;5,49;7896024761811;true
+leite;1604694;Bombons Chocolate Lindt Lindor Ao Leite 200g Com 16 Unidades;Lindt;82,99;7610400068505;true
+leite;2193787;Biscoito Leite Maltado Recheio Chocolate com Avelã Piraquê 85g;Piraque;2,99;7896024761347;true
+leite;2362775;Chocolate Ao Leite Recheio Crème Brûlée Nóig Pacote 70g;Bistek;6,97;7891330020836;true
+leite;2100886;Bebida Láctea Cappuccino Café com Leite 3 Corações 260ml;Bistek;5,97;7896045104482;true
+leite;4000472;Chocolate Ao Leite Com Avelãs Neugebauer 1891 Supreme Caixa 90g;Neugebauer;11,97;7891330021406;true
+leite;1961470;Pão Aminna Sg Original Sem Glúten E Sem Leite Pacote 400g;Aminna;18,99;7898344321843;true
+leite;4001598;Chocolate Ao Leite Haoma Frutas Vermelhas E Castanha De Caju 25g;Haoma;12,99;7898766811175;true
+leite;2279126;Pasta De Amendoim Dr Peanut Sabor Doce De Leite 600g;Bistek;54,90;619205816479;true
+leite;2348039;Chocolate Ao Leite Com Flocos De Milho Nissin Croc Choco Caixa 44g;Nissin;4,97;7891079014257;true
+leite;2158655;Bala De Leite Com Chocolate Zero Lactose Diet My Toffee 52g;My Toffe;9,99;7891151038560;true
+leite;1057251;Po P/Pudim Lowcucar 25g Leite Cond.Zr.Ac;Lowcucar;4,99;7896292006027;true
+leite;1575368;Confeito De Amendoim Crocante Cobertura Chocolate Ao Leite Bib'S Pacote 40g;Bibs;3,97;7891330015214;true
+leite;1927302;NIVEA Sabonete em Barra Hidratante Leite Promo 6 uni 85g;Nivea;14,99;4005900713612;true
+leite;2148048;Caixa De Bombons Chocolate Lindt Lindor Ao Leite 75g Com 6 Unidades;Lindt;37,99;8003340805252;true
+leite;2002604;Cápsula De Café Com Leite Latte Macchiato 3 Corações 10 Unidades;Tres Coracoes;16,97;7896005810057;true
+leite;1785753;Biscoito Belvita Leite E Aveia Multipack 75g Com 3 Unidades De 25g;Belvita;6,99;7622210661746;true
+leite;1299697;Pack Leite Fermentado Desnatado Chamyto Frasco 450g 6 Unidades;Chamyto;7,47;7891000089934;true
+leite;1404695;Sobremesa Danette 360g Chocolate Ao Leite Leve + Pague -;Danette;13,97;7891025201786;true
+leite;2305984;Barra De Chocolate Ao Leite Divine Crema Incantata Recheado Com Caramelo Sem Glúten 90g;Divine;11,99;7899516210743;true
+leite;1862960;Iogurte Natural Whey Doce De Leite 21g De Proteína Verde Campo 250g;Verde Campo;13,47;7898205924671;true
+leite;4001602;Biscoito Haoma Biscottino Pistache Com Chocolate Ao Leite Zero Adição De Açúcares 84g;Haoma;69,99;7898766811489;true
+leite;2148080;Trufa De Chocolate Suíça Ao Leite Recheio Cremoso Lindt Lindor Caixa 112g;Lindt;51,99;7890130202817;true
+leite;1731858;Flocos De Arroz Cobertura Mix Ao Leite & Branco Bib'S Sachê 120g;Bibs;14,99;7891330011728;true
+leite;2218496;Chocolate Bis Original Ao Leite - Kit Com 3 Unidades De 100,8g;Lacta;17,55;7622210576071;true
+leite;2305992;Barra De Chocolate Ao Leite Divine Crema Incantata Recheado Com Avelã Sem Glutén 90g;Divine;11,99;7899516210712;true
+leite;2243911;Bebida Láctea 15g Cappuccino Doce De Leite 3 Corações Power 250ml;Tres Coracoes;6,74;7896045110636;true
+leite;2332876;Antitranspirante Roll-On Dove Fresh Care 50ml Pêssego & Leite De Arroz;Dove;15,99;78948310;true
+leite;2051001;Biscoito de Arroz Cobertura Chocolate ao Leite Zero Zero Açúcar Fit Food 60g;Fit Food;12,99;7898649351828;true
+leite;1223364;Pack Leite Fermentado Elege Bob Esponja Tradicional Caixa Com 6 Unidades 80g Cada;Elege;7,57;7891097101984;true
+leite;4001082;Bombom Montevérgine O Show Da Luna Chocolate Ao Leite Recheio Cremoso Sabor Brigadeiro Sortidos 44g;Montevergine;7,99;7896079817624;true
+leite;2148064;Trufa De Chocolate Suíça Ao Leite Recheio Cremoso Coração Lindt Lindor Lata 50g 4 Unidades;Lindt;42,99;7890130202848;true
+leite;1940546;Bebida Lactea Chocoleite 260ml Orig.Gar;Chocoleite;4,79;7896060506155;true
+leite;1840525;Bebida Lactea Chocoleite 880ml Original;Chocoleite;10,99;7896060506070;true
+leite;1896210;Bebida Lactea Chocoleite 208ml Orig.Vd;Chocoleite;4,79;7896060506483;true
+leite;2193620;Mistura Para Bolo Apti 400g Quatro Leites;Apti;4,99;7896327511519;true
+leite;2076292;Achocolatado Em Pó Original Toddy Pote 750g;Toddy;22,99;7892840819170;true
+leite;2046725;Nivea Sabonete Em Barra Pure Milk Sensitive 90g;Nivea;4,59;4005900807854;true
+leite;2252228;Ovo De Páscoa Ao Leite Com Coelhos De Chocolate Ao Leite Gold Bunny Lindt 125g;Lindt;0,00;7890130400725;false
+leite;2155184;Chocolate Lacta 34g Ao Leite;Lacta;0,00;7622210573384;false
+leite;2336570;Chocolate Ao Leite Millennium 100g;Bistek;0,00;4820240032540;false
+leite;1296345;Leite De Coco Menina 200ml;Menina;0,00;7896028014494;false
+leite;4001076;Chocolate Feastables Ao Leite 60g;Bistek;0,00;1230000168045;false
+leite;1829858;Chocolate Schogetten Ao Leite 100g;Schogetten;0,00;4000607850004;false
+leite;2309009;Leite Past.Purolatte 500ml Tipo A Int.;Bistek;0,00;7898968625167;false
+leite;2128535;Leite Fermentado Activia 510g Ameixa C/6;Activia;0,00;7891025103080;false
+leite;2128527;Leite Fermentado Activia 510g Ma/Cer C/6;Activia;0,00;7891025123217;false
+leite;2026090;Leite Pasteurizado Integral Homogeneizado Santa Clara Saquinho 1 Litro;Santa Clara;0,00;7896504300011;false
+leite;1926357;Leite Coco Mais Coco 200ml Vidro;Mais Coco;0,00;7896004400297;false
+leite;1588362;Leite Fermentado Desnatado Yakult 40 Frasco 480g 6 Unidades;Yakult;0,00;7891156002030;false
+leite;1492047;Leite Piracanjuba Zero Lactose 1l;Piracanjuba;0,00;7898215152811;false
+leite;1379542;Leite Longa Vida Aurora 1lt Integral;Aurora;0,00;7891164028237;false
+leite;1206907;Leite Longa Vida Caprilat 1 Litro Integral;Caprilat;0,00;7897137000040;false
+leite;1206311;Leite Longa Vida Elegê 1 Litro Integral;Elege;0,00;7896079500151;false
+leite;1206010;Leite Longa Vida Semidesnatado Tirol 1l;Tirol;0,00;7896256600237;false
+leite;2238446;Leite Past.Purolatte 1l Tipo A Desnat;Bistek;0,00;7898968625037;false
+leite;2146142;Leite Uht Piracanjuba 1l Desnatado Z.Lac;Piracanjuba;0,00;7898215157830;false
+leite;2097524;Leite Condensado Linea 210g Zero Açucar;Bistek;0,00;7896001215443;false
+leite;2026104;Leite Uht Santa Clara 1l Semidesn Z.Lac;Santa Clara;0,00;7896504305313;false
+leite;1922246;Leite Fermentado Desnatado Morango Light Zero Lactose Activia Zero Frasco 170g;Activia;0,00;7891025117162;false
+leite;1912550;Leite Letti 1l A2 Integral;Letti;0,00;7898925856030;false
+leite;1868055;Leite Ferm.Activia 100g Shot Tradicional;Activia;0,00;7891025114673;false
+leite;1379534;Leite Longa Vida Aurora 1lt Desnatado;Aurora;0,00;7891164028213;false
+leite;1206443;Leite Uht Santa Clara 1l Semi Desnatado;Santa Clara;0,00;7896504305085;false
+leite;1067346;Leite Po Cabra Capprys 200g Integral;Capprys;0,00;7898144020120;false
+leite;1067273;Leite Po Elege 400g Inst.Integral Sache;Elege;0,00;7896079510198;false
+leite;1679163;Creme De Leite Verde Campo 500g;Verde Campo;0,00;7898205920222;false
+leite;1566466;Chocolate Milka Daim Ao Leite 100g;Milka;0,00;7622300185015;false
+leite;2238411;Leite Tipo A Purolatte Integral A2a2 1l;Bistek;0,00;7898968625051;false
+leite;2238403;Leite Past.Purolatte 1l Semid.Zr Lact;Bistek;0,00;7898968625044;false
+leite;2170825;Leite Fermentado Chamyto Big 120g;Chamyto;0,00;7891000027967;false
+leite;2128519;Leite Fermentado Activia 510g Mor Zr C/6;Activia;0,00;7891025116165;false
+leite;2128500;Leite Fermentado Activia 510g Ame.Zr C/6;Activia;0,00;7891025123255;false
+leite;2015773;Leite Po Elege 300g Inst.Desnatado Lt;Elege;0,00;7896079577757;false
+leite;1996592;Leite Ferm.Actimel 100g Morango;Actimel;0,00;78927001;false
+leite;1964232;Leite Fermentado Tirol 170g Baunilha;Tirol;0,00;7896256605341;false
+leite;1864904;Leite Em Pó Molico Desnatado 280g Grátis 10%;Molico;0,00;7891000249376;false
+leite;1379550;Leite Longa Vida Aurora 1lt Semi Desnatado;Aurora;0,00;7891164028220;false
+leite;1206303;Leite Longa Vida Elegê 1 Litro Semidesnatado;Elege;0,00;7896079500168;false
+leite;1206290;Leite Longa Vida Elegê 1 Litro Desnatado;Elege;0,00;7896079500175;false
+leite;1067117;Leite Em Pó Caprilat 400g Instantâneo;Caprilat;0,00;7897137000026;false
+leite;2285649;Leite Uht Parmalat 1l Zymil Desnat S/L;Parmalat;0,00;7891097001482;false
+leite;2238438;Leite Past.Purolatte 1l Tipo A Semidesn;Bistek;0,00;7898968625020;false
+leite;2236036;Leite Uht Ninho 1l Semid.Levinho A2 Tp;Ninho;0,00;7898215157908;false
+leite;2209250;Leite Uht Semidesnatado Zero Lactose Elegê Caixa Com Tampa 1l;Elege;0,00;7891097102660;false
+leite;2189313;Leite Fermentado Activia 800g Ameixa;Activia;0,00;7891025123453;false
+leite;2163020;Leite Fermentado Tirol 830g Baun.Desnat;Tirol;0,00;7896256605075;false
+leite;1662430;Leite Uht Aurora 1l Integ.S/Lac Tp Rosca;Aurora;0,00;7891164028299;false
+leite;1223348;Leite Ferm.Elege 480g Bob Espon.Uva C/6;Elege;0,00;7891097101991;false
+leite;1206206;Leite Uht Santa Clara 1l Integral;Santa Clara;0,00;7896504300073;false
+leite;1206028;Leite Longa Vida Tirol 1 Litro Desnatado;Tirol;0,00;7896256600247;false
+leite;1067281;Leite Po Elege 400g Inst.Desnatado Sache;Elege;0,00;7896079510372;false
+leite;2238454;Creme Leite Purolatte 480g Pasteurizado;Bistek;0,00;7898968625068;false
+leite;2280779;Pudim Chandelle 100g Leite Condensado;Chandelle;0,00;7898755200027;false
+leite;1350021;Doce De Leite La Serenissima 400g;La Serenissima;0,00;7793940406003;false
+leite;2319128;Ovo Pascoa Lecacau 100g Ao Leite;Bistek;0,00;7898701201764;false
+leite;2144140;Chocolate Cupido 125g Em Folhas Ao Leite;Cupido;0,00;5400265025698;false
+leite;2135906;Doce Leite San Ignacio 400g;San Ignacio;0,00;7790244941797;false
+leite;1871463;Biscoito Milka 112g Stix Ao Leite;Milka;0,00;7622300665975;false
+leite;1421913;Doce De Leite Dacolônia 160g Fondant;Da Colonia;0,00;7896181707646;false
+leite;2251930;Ovo De Páscoa Lecacau Ao Leite Com Brinquedo 130g;Bistek;0,00;7898701201788;false
+leite;2227320;Biscoito Leite Maltado Original Piraquê 132g;Piraque;0,00;7896024761439;false
+leite;2209152;Panettone Parati Chocomax Chocolate Ao Leite 400g;Parati;0,00;7896004009056;false
+leite;2133695;Biscoito Santa Edwiges 100g Natal Leite;Santa Edwiges;0,00;7896064205191;false
+leite;2099004;Doce De Leite Colonial 440g S/ Lactose;Colonial;0,00;7730588000996;false
+leite;4001539;Chocolate Cachet Ao Leite Caramelo Salgado 50g;Cachet;0,00;5412956221517;false
+leite;2320266;Galinha Ovos Ouro Nugali 350g Ao Leite;Bistek;0,00;7898915776287;false
+leite;2162156;Coelho De Chocolate Ao Leite Divine Sem Glúten 100g;Divine;0,00;7899516203653;false
+leite;2095491;Biscoito Wafer Isabela Doce De Leite 100g;Isabela;0,00;7896022086701;false
+leite;2053772;Licor Don Luiz 750ml Doce Leite;Don Luiz;0,00;7898994771012;false
+leite;1596500;Doce Leite San Ignacio 450g Vidro;San Ignacio;0,00;7790244941636;false
+leite;655678;Bico Kuka Anticolica Leite Numero 2;Kuka;0,00;7896000650696;false
+leite;2251957;Ovo de Páscoa ao Leite Le Cacau 80g;Bistek;0,00;7898701201894;false
+leite;2251922;Ovo De Páscoa Lecacau Ao Leite Com Brinquedo 250g;Bistek;0,00;7898701201795;false
+leite;2123452;Chocolate Ozmo Club Creme Leite 44g;Ozmo Club;0,00;8691707140247;false
+leite;2032180;Bifinho Caes Keldog 60g Carne/Leite;Keldog;0,00;7896273808992;false
+leite;1229273;Margarina Delícia Com Creme De Leite Com Sal 250g;Delicia;0,00;7894904271535;false
+leite;699179;Esmalte C0lorama Creme Leite De Coco;Colorama;0,00;7899026414549;false
+leite;2343762;Suplemento Super Coffee 220g Doce Leite;Super Coffee;0,00;70341564868;false
+leite;2230208;Alfajor Milka 55g Ao Leite Mousse Triplo;Milka;0,00;77903785;false
+leite;2225166;Petit Gateau Havanna 160g Doce De Leite;Havanna;0,00;7898161871323;false
+leite;2148196;Chocolate Nestlé Dolca Ao Leite Barra 100g;Nestle;0,00;7613036723701;false
+leite;2063573;Biscoito Amanteigado Leite Marilan Pacote 280g;Marilan;0,00;7896003738902;false
+leite;1229125;Margarina Delícia Com Creme De Leite Com Sal 500g;Delicia;0,00;7894904271528;false
+leite;4000935;Ovo De Páscoa Topcau Chocolate Ao Leite Playstation 90g;Bistek;0,00;7896299609450;false
+leite;2366037;Chocolate Ao Leite Garoto Pacote 80g Grátis 20%;Garoto;0,00;7891000438381;false
+leite;2242982;Ovo De Páscoa Divine Chocolate Ao Leite Sem Glúten 190g;Divine;0,00;7899516210194;false
+leite;2289989;Panettone Casa Suíça Com Gotas De Chocolate Ao Leite 80g;Casa Suica;0,00;7897173073350;false
+leite;2205866;Café Com Leite Solúvel 3 Corações Sache 20g;Tres Coracoes;0,00;7896005807521;false
+leite;1229729;Margarina Delícia Supreme Com Creme De Leite Com Sal 500g;Delicia;0,00;7891080112836;false
+leite;4001196;Ovo de Páscoa Chocolate Ao Leite Divine Sem Glúten 100g;Divine;0,00;7899516208993;false
+leite;2362767;Chocolate Ao Leite Recheio Banoffee Nóig Pacote 70g;Bistek;0,00;7891330020713;false
+leite;2353210;Chocolate Nestle 80g Classic Leite Gts 20%;Nestle;0,00;7891000438503;false
+leite;2201801;Creme De Leite Vida Veg 220g Vegetal Fresco;Vida Veg;0,00;7898958161835;false
+leite;2131528;Cobertura Top 400g Gotas Choc.Ao Leite;Top;0,00;7897077836600;false
+leite;2087588;Pao De Queijo F.Minas 280g Doce Leite;Forno De Minas;0,00;7896074606360;false
+leite;1371754;Ração Friskies Gatos Filhotes Frango E Leite 1kg;Friskies;0,00;7891000077276;false
+leite;4000937;Ovo De Páscoa Topcau Chocolate Ao Leite Bluey 90g;Bistek;0,00;7896299609443;false
+leite;2309092;Chocolate Nugali 100g Ao Leite 45% S/G;Bistek;0,00;7898915776065;false
+leite;2292181;Creme Leite Puro Latte 220g Zero Lactose;Bistek;0,00;7898968625198;false
+leite;2242958;Ovo De Páscoa Divine Cookies Chocolate Ao Leite Sem Glúten 215g;Divine;0,00;7899516210279;false
+leite;2129833;Panettone Visconti Com Gotas De Chocolate Recheio Doce De Leite 450g;Visconti;0,00;7891962068183;false
+leite;1814907;Panettone Casa Suíça Com Gotas De Chocolate Ao Leite Caixa 400g;Casa Suica;0,00;7897173098605;false
+leite;2290014;Panettone Nestlé Recheio Chocolate Ao Leite E Charge Caixa 450g;Nestle;0,00;7891000406458;false
+leite;2161451;Cappuccino Em Cápsula Doce De Leite Nescafé Dolce Gusto 170g;Nescafe;0,00;7891000877456;false
+leite;2311470;Chocolate Zero Ao Leite 45% Cacau Premium Nugali 40g;Bistek;0,00;7898915776201;false
+leite;2132141;Chocolate Ao Leite Com Pastilhas De Chocolate Coloridas Cores Garoto 80g;Garoto;0,00;7891008124224;false
+leite;2309050;Chocolate Nugali Ao Leite Sem Glúten Premium Avelã 45% De Cacau 100g;Bistek;0,00;7898915776072;false
+leite;2366029;Chocolate Nestlé Choco Trio Ao Leite 90g - 20% Off;Nestle;0,00;7891000437957;false
+leite;2309076;Chocolate Nugali Ao Leite Sem Glúten Premium Nozes 45% De Cacau 100g;Bistek;0,00;7898915776096;false
+leite;2289997;Panettone Nestlé Alpino Com Gotas E Recheio De Chocolate Ao Leite Caixa 450g;Nestle;0,00;7891000406564;false
+leite;4003265;Bombons Chocolate Lindt Lindor Ao Leite Com Pistache 200g Com 16 Unidades;Lindt;0,00;8003340098609;false
+leite;2254646;Iogurte Duo Delicari 340g Doce De Leite Grego Zero Lactose;Bistek;0,00;7898958872557;false
+leite;2162148;Ovo De Páscoa Divine Mesclado Chocolate Ao Leite E Chocolate Branco Sem Glúten 100g;Divine;0,00;7899516209655;false
+leite;1223240;Pack Leite Fermentado Desnatado Chamyto Big Frasco 720g 6 Unidades;Bistek;0,00;7891000089507;false
+leite;2331683;Biscoito Chocolate Recheio Canela E Leite Condensado Selena Gomez Oreo Pacote 90g;Oreo;0,00;7622202323614;false
+leite;2319160;Pascoattone Casa Suíça Com Gotas De Chocolate Ao Leite Cobertura Castanha-De-Caju 400g;Casa Suica;0,00;7897173024291;false
+leite;2319152;Pascoattone Casa Suíça Com Gotas De Chocolate Ao Leite Recheio Trufado Chocolate Caixa 450g;Casa Suica;0,00;7897173023911;false
+leite;2290049;Panettone Parati Com Gotas De Chocolate Ao Leite Recheio Trufado Chocolate Meio Amargo 400g;Parati;0,00;7896004010434;false
+leite;2242966;Ovo De Páscoa Divine Mesclado Chocolate Ao Leite E Chocolate Branco Due Passione 190g;Divine;0,00;7899516210217;false
+feijao;1003232;Feijão Preto Caldão 1kg;Caldao;7,59;7897656600011;true
+feijao;1003224;Feijão Carioca Caldão 1kg;Caldao;9,99;7897656600059;true
+feijao;2006995;Feijao Fradinho Caldao 500g;Caldao;5,19;7897656600783;true
+feijao;1003216;Feijão Vermelho 1kg Caldão;Caldao;10,90;7897656600035;true
+feijao;1814869;Feijao Vermelho Urbano 1kg;Urbano;12,49;7896038301058;true
+feijao;2004330;Feijao Azuki Caldao 500g;Caldao;6,97;7897656600776;true
+feijao;2043416;Feijao Preto Rico Caldo 1kg;Rico Caldo;4,97;7896701001278;true
+feijao;1470493;Feijao Cavalo Caldo Bom 500g;Caldo Bom;11,99;7896273903352;true
+feijao;1864823;Feijao Vermelho Caldo Bom 1kg;Caldo Bom;11,99;7896273902010;true
+feijao;1020579;Tempero Ajinomoto Sazón 60g Feijão;Sazon;5,29;7891132019724;true
+feijao;1566385;Feijao Preto Camil 380g Pronto;Camil;5,91;7896006797944;true
+feijao;1566377;Feijao Carioca Camil 380g Pronto;Camil;7,99;7896006797920;true
+feijao;1470558;Feijao Branco Caldo Bom 500g;Caldo Bom;9,29;7896273900344;true
+feijao;1470515;Feijao Rosinha Caldo Bom 500g;Caldo Bom;10,99;7896273902546;true
+feijao;1864831;Feijao Preto Caldo Bom 1kg;Caldo Bom;6,99;7896273900306;true
+feijao;1864866;Feijao Carioca Caldo Bom 1kg;Caldo Bom;11,99;7896273900313;true
+feijao;2043408;Feijao Preto Bom Partido 1kg;Bom Partido;4,99;7896701002169;true
+feijao;1696840;Feijao Carioca Fugini 250g Sache;Fugini;4,99;7897517209223;true
+feijao;2285908;Caldo Proteico Feijão Mexidona 30g;Mexidona;8,99;602883602137;true
+feijao;1269623;Feijão Preto Vapza 500g Temperado;Vapza;13,99;7897122600064;true
+feijao;2043432;Feijao Vermelho Rico Caldo 1kg;Rico Caldo;9,87;7896701001322;true
+feijao;1696858;Feijao Preto Fugini 250g Sache;Fugini;6,59;7897517209247;true
+feijao;1655205;Feijao Branco Fonte Nova 500g;Fonte Nova;8,75;7896327633426;true
+feijao;1255347;Feijao Carioca Vapza 500g Temperado;Vapza;13,99;7897122600071;true
+feijao;1275208;Tempero Feijão, Ovo E Arroz Maggi 50g;Maggi;4,49;7891000066904;true
+feijao;1572806;Sopa Instantânea Vono Caldinho De Feijão 18g;Vono;3,29;7891132007561;true
+feijao;1759132;Feijão Preto Urbano Tipo 1 1kg;Urbano;6,49;7896038388059;true
+feijao;1759140;Feijão Carioca Urbano Tipo 1 1kg;Urbano;12,49;7896038365050;true
+feijao;2140713;Tempero Em Pó Knorr Feijão 50g 10 Sachês;Knorr;7,49;7891150088696;true
+feijao;2363160;Caldo Líquido Stock Feijão Vero Brodo Caixa 750ml;Bistek;21,99;7898716960083;true
+feijao;2331659;Sopão De Feijão Maggi 200g;Maggi;0,00;7891000424995;false
+feijao;2062534;Feijao Vermelho Fritz&Frida 500g;Bistek;0,00;7890300379349;false
+feijao;1321501;Broto De Feijão Oriental Brasil 250g;Oriental Brasil;0,00;7898371100107;false
+feijao;1470485;Feijao Fradinho Caldo Bom 500g;Caldo Bom;0,00;7896273902522;false
+feijao;1020625;Tempero Kitano 60g Mais Sabor Feijao;Mais Sabor;0,00;7891095150304;false
+feijao;2062542;Feijao Preto Fritz&Frida 1kg;Fritz&Frida;0,00;7890300155929;false
+feijao;1470574;Feijao Jalo Caldo Bom 500g;Caldo Bom;0,00;7896273902539;false
+feijao;1962469;Massa Urbano Protein Arroz Com Feijão Parafuso Zero Glúten 500g;Urbano;0,00;7896038330195;false
+sabao;713627;Sabao Barra Zavaski 400g;Zavaski;4,69;7896360601871;true
+sabao;2093189;Sabão Em Barra Ypê Neutro 800g;Ype;14,90;7896098905906;true
+sabao;2113880;Sabao Barra Ufe 180g Coco;Ufe;9,49;7896056407077;true
+sabao;716391;Sabao Pasta Ufe 500g Coco;Ufe;9,49;7896060401467;true
+sabao;2204223;Sabão Em Barra Ypê Multiativo 800g;Ype;25,49;7896098905937;true
+sabao;716316;Sabao Pasta Cristal 500g Rosa;Cristal;8,97;7896060400743;true
+sabao;2093162;Sabão Em Barra Ypê Neutro 160g;Ype;4,69;7896098905913;true
+sabao;1460595;Sabão Em Pasta Assolan Neutro 500g;Assolan;12,99;7896055501103;true
+sabao;1475142;Sabão Em Barra Ypê Multiativo 160g;Ype;5,19;7896098905944;true
+sabao;2203774;Sabão Em Barra Ypê Coco E Aveia 800g;Ype;24,97;7896098905982;true
+sabao;2101742;Sabão Em Pó Tixan Ypê Primavera 800g;Tixan Ype;11,97;7896098909744;true
+sabao;2091526;Sabão Em Barra Ypê Aloe Vera 800g;Ype;22,49;7896098905968;true
+sabao;1351230;Sabão Em Barra Girando Sol 200g Glicerina;Girando Sol;4,79;7896404600297;true
+sabao;713538;Sabao Barra Zavaski 1kg Coco C/5;Zavaski;15,97;7896360600041;true
+sabao;2101734;Sabão Em Pó Tixan Ypê Primavera 1,6kg;Tixan Ype;15,97;7896098909768;true
+sabao;2029766;Sabão Em Pó Ypê Power Act 1,6kg;Ype;17,91;7896098905098;true
+sabao;1736043;Sabão Líquido Tixan Ypê Primavera 3 Litros;Tixan Ype;33,97;7896098901168;true
+sabao;2304953;Sabão Líquido Ola Bebê Para Roupas Finas E Delicadas 1l;Ola;19,58;7509546695723;true
+sabao;2362287;Sabão Líquido Tixan Ypê Express Combate Mau Odor 1l;Tixan Ype;14,97;7896098903643;true
+sabao;2203740;Sabão Em Pó Tixan Ypê Primavera 2,2kg;Tixan Ype;25,97;7896098906750;true
+sabao;1866095;Sabão Líquido Tixan Ypê Primavera 3 Litros Grátis 10% De Desconto;Tixan Ype;30,57;7896098901328;true
+sabao;4000865;Sabão Líquido Tixan Ypê Coco E Baunilha 3 Litros;Tixan Ype;33,97;7896098903490;true
+sabao;2304945;Sabão Liquido Para Roupas Finas E Delicadas Ola Original 1l;Ola;19,58;7509546695716;true
+sabao;1612549;Lava Roupas Líquido Omo Lavagem Perfeita 5l;Omo;59,97;7891150025103;true
+sabao;2213435;Sabão Líquido Tixan Ypê Primavera Refil 900ml;Tixan Ype;0,00;7896098904053;false
+sabao;2113902;Sabao Barra Ufe 450g Coco C/5;Ufe;0,00;7896056407091;false
+sabao;2213427;Sabão Líquido Tixan Ypê Maciez Refil 900ml;Tixan Ype;0,00;7896098904893;false
+sabao;2362252;Sabão Líquido Tixan Ypê Express Cuida Das Roupas 1l;Tixan Ype;0,00;7896098903650;false
+arroz;2362813;Biscoito De Arroz Rice Cracker De Arroz Lime & Pepper 100g;Bistek;13,99;7908348300260;true
+arroz;2105756;Arroz Parboilizado Bonitão 1kg;Bonitao;2,99;7898003270024;true
+arroz;1002686;Arroz Parboilizado Kiarroz 5kg;Kiarroz;16,79;7896084700010;true
+arroz;2018160;Arroz Branco Namorado 1kg;Namorado;3,99;7896079431110;true
+arroz;1711598;Arroz Integral Urbano 1kg;Urbano;4,79;7896038308057;true
+arroz;2035790;Arroz Preto Urbano 500g;Urbano;14,99;7896038300082;true
+arroz;1613081;Leite De Arroz Risovita 1l;Risovita;19,99;7896084700294;true
+arroz;1002678;Arroz Parboilizado Kiarroz 1kg;Kiarroz;3,19;7896084700027;true
+arroz;2040174;Arroz Parboilizado Timbe 5kg;Timbe;15,79;7898018160037;true
+arroz;1409808;Arroz Parboilizado Timbe 1kg;Timbe;3,19;7898018160044;true
+arroz;2035782;Arroz Vermelho Urbano 500g;Urbano;13,99;7896038300051;true
+arroz;1002201;Arroz Branco Kiarroz 5kg;Kiarroz;18,99;7896084600037;true
+arroz;1076116;Arroz Integral Kiarroz 1kg;Kiarroz;3,75;7896084700089;true
+arroz;1602578;Arroz Integral Rampinelli 1kg;Rampinelli;3,78;7896546110111;true
+arroz;1938010;Arroz Oriental Rampinelli 1kg;Rampinelli;12,29;7896546130027;true
+arroz;1782401;Arroz Arborio Rampinelli 1kg;Rampinelli;19,99;7896546130010;true
+arroz;1985256;Arroz Panelaço Pérola 1kg;Panelaco;13,29;7897172500918;true
+arroz;1548506;Vinagre Rosani 500ml Arroz;Rosani;4,99;7898434400120;true
+arroz;1002368;Arroz Branco Rampinelli 1kg;Rampinelli;3,29;7896546112214;true
+arroz;1927507;Arroz Carnaroli Rampinelli 500g;Rampinelli;16,99;7896546130041;true
+arroz;1493248;Vinagre Kenko 750ml Arroz;Kenko;12,99;7896007826476;true
+arroz;1002325;Arroz Branco Tio Urbano 1kg;Tio Urbano;4,59;7896038321056;true
+arroz;1002198;Arroz Branco Kiarroz Fumacense 1kg;Kiarroz;3,67;7896084700140;true
+arroz;2140691;Tempero Pó Knorr 50g Arroz;Knorr;7,49;7891150088689;true
+arroz;1937995;Arroz Branco Rampinelli 1kg Premium;Rampinelli;4,49;7896546150018;true
+arroz;1002236;Arroz Branco Tio Joao 1kg;Tio Joao;5,49;7893500020127;true
+arroz;1864106;Arroz Branco Tio Joao 2kg;Tio Joao;10,98;7893500020134;true
+arroz;1002333;Arroz Branco Tio Urbano 5kg;Tio Urbano;22,49;7896038321032;true
+arroz;1470736;Arroz Arborio Caldo Bom 500g;Caldo Bom;9,47;7896273903277;true
+arroz;1076108;Arroz Integral 1kg Tio João;Tio Joao;6,79;7893500018537;true
+arroz;1002902;Arroz Urbano Parboilizado Pacote 1kg;Urbano;4,19;7896038306053;true
+arroz;1002864;Arroz Parboilizado Tio Joao 1kg;Tio Joao;4,49;7893500018513;true
+arroz;1550012;Arroz Parboilizado Bonitao 5kg Tp1;Bonitao;14,79;7898003270017;true
+arroz;1970291;Biscoito Arroz Rampinelli 150g Trad;Rampinelli;7,79;7896546160017;true
+arroz;2113830;Cereal Infantil Mucilon Arroz 180g;Mucilon;8,99;7891000319628;true
+arroz;1759442;Arroz Branco Urbano 1kg Premium;Urbano;5,19;7896038355051;true
+arroz;1020692;Tempero Ajinomoto Sazón 60 Arroz;Sazon;5,29;7891132000449;true
+arroz;1853813;Massa De Arroz Urbano Espaguete Sem Glúten 500g;Urbano;5,79;7896038313198;true
+arroz;2362791;Biscoito de Arroz Rice Cracker Barbecue 100g;Bistek;13,99;7908348300246;true
+arroz;1048449;Flocos Arroz Beija Flor 120g Natural;Beija Flor;7,49;7896404901103;true
+arroz;2333287;Arroz Kiarroz Extra Premium Pérola 500gr;Kiarroz;4,99;7896084701635;true
+arroz;2119404;Arroz Branco Urbano 1kg Kids Vitaminado;Urbano;5,29;7896038397051;true
+arroz;1970305;Biscoito Arroz Rampinelli 150g C/Milho;Rampinelli;7,79;7896546160024;true
+arroz;1881078;Massa De Arroz Urbano Espaguete Sem Glúten 500g;Urbano;6,99;7896038314195;true
+arroz;1505050;Massa De Arroz Urbano Parafuso Sem Glúten 500g;Urbano;5,79;7896038310197;true
+arroz;1002775;Arroz Parboilizado Kiarroz com 8 Saquinhos 1kg;Kiarroz;4,29;7896084700096;true
+arroz;1696882;Arroz Urbano Arbório Especial Para Risoto 1kg;Urbano;22,99;7896038357017;true
+arroz;1470612;Arroz Integral Caldo Bom 8 Grãos Mix Completo 400g;Caldo Bom;8,49;7896273903321;true
+arroz;1442902;Arroz Tio Joao 500g 7 Graos Integrais;Tio Joao;10,99;7893500045434;true
+arroz;1002376;Arroz Sasanishiki Tio Joao 1kg Coz.Japon;Tio Joao;19,99;7893500019220;true
+arroz;2183234;Torrada Arroz Okoshi 75g Trad.Org;Okoshi;6,99;7896639800653;true
+arroz;2113848;Cereal Infantil Mucilon Arroz E Aveia 180g;Mucilon;8,99;7891000035610;true
+arroz;2200325;Macarrão Arroz Karui 200g S/ Glúten;Karui;9,47;7898270966965;true
+arroz;1470590;Arroz Integral Caldo Bom 500g Mix Grãos;Caldo Bom;8,49;7896273903345;true
+arroz;2080125;Arroz Integral Meu Biju 500g 8 Graos Qu.;Meu Biju;8,79;7893500058731;true
+arroz;1470604;Arroz Integral Caldo Bom 400g Mix Grãos;Caldo Bom;8,49;7896273903338;true
+arroz;1442910;Arroz Tio João 500g 7 Grãos Integral + Passas De Uva;Tio Joao;11,99;7893500045458;true
+arroz;1987208;Flocos Arroz Urbano 500g S/Gluten;Urbano;3,99;7896038360192;true
+arroz;2362821;Biscoito De Arroz Rice Cracker Original 100g;Bistek;13,99;7908348300239;true
+arroz;1505041;Massa De Arroz Urbano Pena Sem Glúten 500g;Urbano;5,79;7896038305193;true
+arroz;1275208;Tempero Feijão, Ovo E Arroz Maggi 50g;Maggi;4,49;7891000066904;true
+arroz;1076124;Arroz Integral Kiarroz Com 8 Saquinhos 1kg;Kiarroz;4,49;7896084700157;true
+arroz;1070940;Cereal Infantil Arroz E Aveia Mucilon 400g;Mucilon;18,97;7891000040898;true
+arroz;1470620;Arroz Cateto Caldo Bom 500g Selec.Esp.;Caldo Bom;11,99;7896273903314;true
+arroz;1748106;Arroz Integral Caldo Bom 10 Grãos 500g;Caldo Bom;8,49;7896273904106;true
+arroz;1049445;Flocos De Arroz Cobertura Chocolate Ao Leite Bib'S 40g;Bibs;3,97;7891330009176;true
+arroz;2276810;Macarrão De Arroz E Milho Espaguete Barilla Pacote 500g;Barilla;10,99;7898951850293;true
+arroz;2276801;Macarrao Arroz Barilla 500g Penne S/Glut;Barilla;10,99;7898951850309;true
+arroz;1604627;Snack de Arroz Queijo e Cebola Kalassi Pacote 100g;Kalassi;14,99;7896053800451;true
+arroz;2356384;Macarrão De Arroz E Milho Linguine Barilla Pacote 500g;Barilla;10,99;7898951850323;true
+arroz;2049732;Chips Arroz Naturallife 70g Churras.S/Gl;Naturallife;7,49;7896256066074;true
+arroz;4000591;Bebida À Base De Arroz A Tal Da Castanha Completo Caixa 1l;A Tal Da Castanha;21,99;7898692302457;true
+arroz;2356376;Macarrão De Arroz E Milho Fusilli Barilla Pacote 500g;Barilla;10,99;7898951850316;true
+arroz;1883887;Flocos De Arroz Cobertura Chocolate Ao Leite Bib'S Sachê 120g;Bibs;14,99;7891330017126;true
+arroz;1963015;Biscoito Arroz Camil 90g Trad.Int S/Gl;Camil;8,59;7896006779513;true
+arroz;2341379;Feijoada Com Arroz E Couve Perdigão Meu Menu Pacote 300g;Perdigao;14,47;7891515631161;true
+arroz;2160242;Biscoito De Arroz Com Pasta De Amendoim Natural Life 40g Sem Glúten;Naturallife;9,49;7896256065787;true
+arroz;2049740;Chips Arroz Naturallife 70g Ceb/Sal.S/Gl;Naturallife;7,49;7896256065480;true
+arroz;1049453;Flocos De Arroz Cobertura Chocolate Branco Bib'S Pacote 40g;Bibs;3,97;7891330009206;true
+arroz;2026384;Macarrao Arroz/Milho Renata 500g Par.S/G;Renata;6,49;7896022207564;true
+arroz;2026368;Macarrão Arroz/Milho Renata 500g Espaguete S/ Glúten;Renata;6,49;7896022207571;true
+arroz;2362805;Biscoito De Arroz Rice Cracker Crunchy Sweet Chili 100g;Bistek;13,99;7908348300253;true
+arroz;1618172;Mini Biscoito De Arroz Integral Camil 150g S/ Glúten;Camil;9,99;7896006779674;true
+arroz;1805118;Biscoito Arroz Camil 150g Ch/Li Int S/Gl;Camil;9,99;7896006716471;true
+arroz;2341387;Frango Cremoso Com Arroz E Brócolis Perdigão Meu Menu Pacote 300g;Perdigao;14,47;7891515625535;true
+arroz;2160315;Biscoito De Arroz Integral 7 Grãos Natural Life 80g Sem Glúten;Naturallife;5,99;7896256066197;true
+arroz;1963023;Biscoito Arroz Camil 90g Ch/Lin.Int S/Gl;Camil;8,59;7896006779643;true
+arroz;1296264;Flocos De Arroz Cobertura Chocolate Preto E Branco Bib'S Pacote 40g;Bibs;3,97;7891330013227;true
+arroz;2341409;Strogonoff De Frango Com Arroz Branco Perdigão Meu Menu Pacote 300g;Perdigao;14,47;7891515625542;true
+arroz;1920103;Flocos De Arroz Duo Chocolate Cobertura Chocolate Branco Bib'S Pacote 40g;Bibs;3,97;7891330017379;true
+arroz;1549804;Flocos De Arroz Morango Extreme Cobertura Chocolate Branco Bib'S Pacote 40g;Bibs;3,97;7891330015108;true
+arroz;1731858;Flocos De Arroz Cobertura Mix Ao Leite & Branco Bib'S Sachê 120g;Bibs;14,99;7891330011728;true
+arroz;2332876;Antitranspirante Roll-On Dove Fresh Care 50ml Pêssego & Leite De Arroz;Dove;15,99;78948310;true
+arroz;2051001;Biscoito de Arroz Cobertura Chocolate ao Leite Zero Zero Açúcar Fit Food 60g;Fit Food;12,99;7898649351828;true
+arroz;2050994;Biscoito de Arroz Cobertura Chocolate Meio Amargo Zero Açúcar Fit Food 60g;Fit Food;12,99;7898649351811;true
+arroz;2346230;Ração Para Cães Adultos Minis E Pequenos Dog Chow Carne, Frango E Arroz 2,5kg;Purina;53,99;7891000435151;true
+arroz;2346222;Ração Para Cães Adultos Médios E Grandes Dog Chow Carne, Frango E Arroz 2,5kg;Purina;53,99;7891000435106;true
+arroz;1002791;Arroz Parboilizado Rampinelli 1kg;Rampinelli;0,00;7896546110012;false
+arroz;2127652;Pão Do Stipp Arroz 400g;Stipp;0,00;7898929116529;false
+arroz;2044935;Vinagre Heinig 750ml Arroz;Heinig;0,00;7896383300386;false
+arroz;2018241;Arroz Parboilizado Namorado 1kg;Namorado;0,00;7896079441119;false
+arroz;2018233;Arroz Integral Namorado 1kg;Namorado;0,00;7896079471314;false
+arroz;2144514;Arroz Basmati Urbano 1kg;Urbano;0,00;7896038300129;false
+arroz;1002805;Arroz Parboilizado Rampinelli 5kg;Rampinelli;0,00;7896546110050;false
+arroz;2287412;Arroz Branco Kiarroz 1kg Premium;Kiarroz;0,00;7896084701642;false
+arroz;1684485;Bebida Arroz Risovita Coco 1l;Risovita;0,00;7896084700348;false
+arroz;1022741;Arroz Tio Joao 250g A Grega;Tio Joao;0,00;7893500025337;false
+arroz;2160102;Mingau Nutribom Aveia E Arroz 600g;Nutribom;0,00;7891331018214;false
+arroz;1684191;Farinha De Arroz Risovita Sem Glúten 1kg;Risovita;0,00;7896084700379;false
+arroz;2035804;Arroz Branco Urbano 1kg Saquinho;Urbano;0,00;7896038307487;false
+arroz;1346997;Cereal Infantil Arroz E Aveia Mucilon 600g;Mucilon;0,00;7891000073100;false
+arroz;1022768;Arroz Tio Joao 250g C/Curry;Tio Joao;0,00;7893500025481;false
+arroz;1002643;Arroz Tio Joao 500g 7 Cereais Soja;Tio Joao;0,00;7893500038986;false
+arroz;2199866;Chips Arroz Rice Up 60g Barbecue;Rice Up;0,00;3800233070101;false
+arroz;2018250;Arroz Parboilizado Tipo 1 Namorado 5kg;Namorado;0,00;7896079441157;false
+arroz;1079697;Farinha De Arroz Fazenda S/ Glúten 1kg;Fazenda;0,00;7896389600909;false
+arroz;2075040;Macarrao Arroz Urbano 500g Kids Person;Urbano;0,00;7896401183083;false
+arroz;1022784;Arroz Tio Joao 250g C/Funghi;Tio Joao;0,00;7893500025368;false
+arroz;2018179;Arroz Branco Namorado Tipo 1 5kg;Namorado;0,00;7896079431158;false
+arroz;2035812;Arroz Integral Urbano 1kg 7 Graos Z/Gl;Urbano;0,00;7896038300013;false
+arroz;1748114;Arroz Integral Caldo Bom 8 Grãos E Cenoura Mix 400g;Caldo Bom;0,00;7896273904113;false
+arroz;1740342;Massa De Arroz Urbano Integral Parafuso Sem Glúten 500g;Urbano;0,00;7896038311194;false
+arroz;1740334;Massa De Arroz Urbano Integral Pena Sem Glúten 500g;Urbano;0,00;7896038306190;false
+arroz;2075032;Macarrao Arroz Urbano 500g Kids Mini Rig;Urbano;0,00;7896401183090;false
+arroz;2026376;Macarrão Arroz/Milho Renata 500g Pena S/ Glúten;Renata;0,00;7896022207557;false
+arroz;964360;Meia Calca Selene Fio 40 M Po Arroz;Selene;0,00;7891290478081;false
+arroz;2160307;Biscoito De Arroz Integral Grande Natural Life 80g Sem Glúten;Naturallife;0,00;7896256065817;false
+arroz;1962469;Massa Urbano Protein Arroz Com Feijão Parafuso Zero Glúten 500g;Urbano;0,00;7896038330195;false
+arroz;2341395;Lombo Ao Molho Oriental Com Arroz E Cenoura Perdigão Meu Menu Pacote 300g;Perdigao;0,00;7891515625559;false

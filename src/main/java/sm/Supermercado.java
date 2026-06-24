@@ -1,6 +1,7 @@
 package sm;
 
 import esd.ListaSequencial;
+import esd.TabHash;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -29,6 +30,15 @@ public class Supermercado {
     final Pattern re_resources = Pattern.compile("(\\d+)-(\\d+)/(\\d+)", Pattern.CASE_INSENSITIVE);
     final int query_len = 40;
     CacheSupermercado cache;
+    private boolean houveAtualizacaoDeCache = false;
+
+    public boolean houveAtualizacaoDeCache() {
+        return houveAtualizacaoDeCache;
+    }
+
+    public void resetarStatusCache() {
+        this.houveAtualizacaoDeCache = false;
+    }
 
     public class Resultado implements Iterable<Produto> {
         String produto;
@@ -90,7 +100,6 @@ public class Supermercado {
         class Iterador implements Iterator<Produto> {
             int total;
             int inicio = 0;
-            //            int pos = 0;
             ListaSequencial<Produto> produtos;
 
             Iterador(ListaSequencial<Produto> produtos, int total) {
@@ -110,16 +119,14 @@ public class Supermercado {
                 }
                 Produto prod = produtos.obtem(inicio++);
                 if (inicio >= produtos.comprimento()) {
-//                    inicio = produtos.comprimento() + inicio;
                     if (inicio < total) {
                         var mais_produtos = sm.busca_proximo(produto, inicio);
                         if (produtos != null && mais_produtos != null) {
                             for (int j=0; j < mais_produtos.comprimento(); j++) {
                                 Produto p = mais_produtos.obtem(j);
                                 produtos.adiciona(p);
-                                sm.adiciona(produto, p); // salva também no cache
+                                sm.adiciona(produto, p);
                             }
-//                            pos = 0;
                         }
                     }
                 }
@@ -242,47 +249,42 @@ public class Supermercado {
 
 
     public Resultado busca(String produto) {
-        // Verifica se há produtos no cache para esse termo de busca
         ListaSequencial<Produto> produtosCache = this.cache.buscarPorNome(produto);
 
-        if (produtosCache != null && !produtosCache.esta_vazia()) {
-            // Coleta os IDs salvos e consulta a API para obter
-            // preços e disponibilidade atualizados
-            ListaSequencial<String> ids = new ListaSequencial<>();
-            for (Produto p : produtosCache) {
-                ids.adiciona(p.getId());
-            }
-            ListaSequencial<Produto> produtosAtualizados = obtem(ids);
-
-            if (produtosAtualizados != null && !produtosAtualizados.esta_vazia()) {
-                return new Resultado(this, produto, produtosAtualizados, produtosAtualizados.comprimento());
-            }
+        // 1. Retorna imediatamente se tem dados no cache
+        if (produtosCache != null) {
+            // Retorna os dados exatamente como estão no arquivo .txt (não faz requisição na API)
+            return new Resultado(this, produto, produtosCache, produtosCache.comprimento());
         }
 
-        // Busca por nome na API e armazena no cache
+        // 2.Busca na API do zero
         HttpResponse<String> response = envia(make_url(produto, 0));
         if (response != null) {
             int status = response.statusCode();
             if (status == 200 || status == 206) {
                 ListaSequencial<Produto> r = extrai_produtos(response);
 
-                for (Produto produtoRetorno : r) {
-                    this.cache.adiciona(produto, produtoRetorno);
-                }
+                if (r.esta_vazia()) {
+                    this.cache.adiciona(produto, null);
+                } else {
+                    this.houveAtualizacaoDeCache = true;
 
-                int[] faixa = obtem_info_paginas(response);
-                int total = faixa[2];
-
-                // Busca todas as páginas restantes de uma só vez em vez de deixar o Iterador buscar sob demanda
-                while (r.comprimento() < total) {
-                    var mais_produtos = busca_proximo(produto, r.comprimento());
-                    if (mais_produtos == null || mais_produtos.esta_vazia()) {
-                        break;
+                    for (Produto produtoRetorno : r) {
+                        this.cache.adiciona(produto, produtoRetorno);
                     }
-                    for (int j = 0; j < mais_produtos.comprimento(); j++) {
-                        Produto p = mais_produtos.obtem(j);
-                        r.adiciona(p);
-                        this.cache.adiciona(produto, p);
+
+                    int[] faixa = obtem_info_paginas(response);
+                    int total = faixa[2];
+
+                    while (r.comprimento() < total) {
+                        var maisProdutos = busca_proximo(produto, r.comprimento());
+                        if (maisProdutos == null || maisProdutos.esta_vazia()) break;
+
+                        for (int j = 0; j < maisProdutos.comprimento(); j++) {
+                            Produto p = maisProdutos.obtem(j);
+                            r.adiciona(p);
+                            this.cache.adiciona(produto, p);
+                        }
                     }
                 }
 
@@ -296,7 +298,6 @@ public class Supermercado {
 
     public ListaSequencial<Produto> obtem(String... ids) {
         ListaSequencial<Produto> res = new ListaSequencial<>();
-        // precisa paginar as buscas, pois a API tem um limite de 50 itens por consulta
         for (int j=0; j < ids.length; j += Supermercado.MAX_QUERY_LEN) {
             var args = Arrays.copyOfRange(ids, j, Math.min(j+Supermercado.MAX_QUERY_LEN, ids.length));
             HttpResponse<String> response = envia(make_get_url(args));
