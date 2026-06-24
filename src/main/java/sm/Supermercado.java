@@ -82,8 +82,7 @@ public class Supermercado {
                 if (it.hasNext()) {
                     action.accept(it.next());
                     return true;
-                }
-                else return false;
+                } else return false;
             }
 
             public Spliterator<Produto> trySplit() {
@@ -91,7 +90,7 @@ public class Supermercado {
             }
 
             public long estimateSize() {
-                return (long)(it.total - it.inicio);
+                return (long) (it.total - it.inicio);
             }
 
             public int characteristics() {
@@ -116,7 +115,7 @@ public class Supermercado {
 
             @Override
             public Produto next() {
-                if (! hasNext()) {
+                if (!hasNext()) {
                     throw new NoSuchElementException("fim da iteração");
                 }
                 Produto prod = produtos.obtem(inicio++);
@@ -124,7 +123,7 @@ public class Supermercado {
                     if (inicio < total) {
                         var mais_produtos = sm.busca_proximo(produto, inicio);
                         if (produtos != null && mais_produtos != null) {
-                            for (int j=0; j < mais_produtos.comprimento(); j++) {
+                            for (int j = 0; j < mais_produtos.comprimento(); j++) {
                                 Produto p = mais_produtos.obtem(j);
                                 produtos.adiciona(p);
                                 sm.adiciona(produto, p);
@@ -138,9 +137,9 @@ public class Supermercado {
         }
     }
 
-    public Supermercado(String url)  {
+    public Supermercado(String url) {
         cliente = HttpClient.newHttpClient();
-        this.url = url+ "/api/catalog_system/pub/products/search/";
+        this.url = url + "/api/catalog_system/pub/products/search/";
         this.cache = new CacheSupermercado(this.getClass().getSimpleName());
     }
 
@@ -164,7 +163,7 @@ public class Supermercado {
         sb.append("&_from=");
         sb.append(Integer.toString(inicio));
         sb.append("&_to=");
-        sb.append(Integer.toString(inicio+query_len-1));
+        sb.append(Integer.toString(inicio + query_len - 1));
 
         return sb.toString();
     }
@@ -174,7 +173,7 @@ public class Supermercado {
         sb.append(this.url);
         sb.append("?");
         boolean naoPrimeiro = false;
-        for (var produtoId: ids) {
+        for (var produtoId : ids) {
             if (naoPrimeiro) sb.append("&");
             else naoPrimeiro = true;
             sb.append("fq=productId:");
@@ -251,77 +250,92 @@ public class Supermercado {
      * Efetua a busca por produtos. Prioriza a verificação no cache local.
      * Caso o termo já tenha sido pesquisado, obtém preços atualizados pela API via ID.
      */
-    public Resultado busca(String produto) {
+    public Resultado busca(String produto, ItemLista itemDesejado) {
         ListaSequencial<Produto> produtosCache = this.cache.buscarPorNome(produto);
 
-        // O produto está no cache
         if (produtosCache != null) {
+            if (produtosCache.esta_vazia()) return new Resultado(this, produto, produtosCache, 0);
 
-            // Se o termo não existe no mercado (Cache Negativo)
-            if (produtosCache.esta_vazia()) {
-                return new Resultado(this, produto, produtosCache, 0);
-            }
-
-            // Obtendo preço atualizado por ID
-
-            // Pegar todos os IDs salvos no cache para este produto
+            // Filtro local baseado no termo de  busca para ignorar produtos irrelevantes do cache
             ListaSequencial<String> ids = new ListaSequencial<>();
-            for (Produto p : produtosCache) {
-                ids.adiciona(p.getId());
-            }
+            String termoNormalizado = produto.toLowerCase().trim();
 
-            // Buscar na API APENAS os preços desses IDs específicos
-            ListaSequencial<Produto> produtosAtualizados = obtem(ids);
+            for (int i = 0; i < produtosCache.comprimento(); i++) {
+                Produto p = produtosCache.obtem(i);
+                String nomeProd = p.getNome().toLowerCase();
 
-            // Se a API respondeu certo, atualiza a memória e retorna
-            if (produtosAtualizados != null && !produtosAtualizados.esta_vazia()) {
-
-                // Atualiza o cache em memória com os preços novos
-                // para que o salvaCache() grave os preços de hoje no .txt
-                for (Produto pAtualizado : produtosAtualizados) {
-                    this.cache.adiciona(produto, pAtualizado);
+                // Só atualiza se o nome do produto contiver o termo original da busca e o itemDesejado aceitar o produto
+                if (nomeProd.contains(termoNormalizado) && itemDesejado.aceitaProduto(p)) {
+                    ids.adiciona(p.getId());
                 }
-
-                return new Resultado(this, produto, produtosAtualizados, produtosAtualizados.comprimento());
             }
 
-            // Se a internet cair bem na hora de atualizar o preço,
-            // usa o preço antigo do cache pra não quebrar o programa.
+            // Se o filtro reduziu a zero por preciosismo, usa a lista do cache original
+            if (ids.esta_vazia()) {
+                for (int i = 0; i < produtosCache.comprimento(); i++) {
+                    ids.adiciona(produtosCache.obtem(i).getId());
+                }
+            }
+
+            // Busca na API por ID apenas dos produtos que passaram na verificação
+            ListaSequencial<Produto> res = this.obtem(ids);
+
+            if (res != null && !res.esta_vazia()) {
+                for (int i = 0; i < res.comprimento(); i++) {
+                    this.cache.adiciona(produto, res.obtem(i));
+                }
+                return new Resultado(this, produto, res, res.comprimento());
+            }
+
             return new Resultado(this, produto, produtosCache, produtosCache.comprimento());
         }
 
-        // Se não está no cache (Busca por nome na API e salva)
+        // O termo NÃO EXISTE no cache
         HttpResponse<String> response = envia(make_url(produto, 0));
         if (response != null) {
             int status = response.statusCode();
             if (status == 200 || status == 206) {
-                ListaSequencial<Produto> r = extrai_produtos(response);
+                ListaSequencial<Produto> produtosBrutos = extrai_produtos(response);
 
-                if (r.esta_vazia()) {
-                    this.cache.adiciona(produto, null); // cache negativo
+                if (produtosBrutos.esta_vazia()) {
+                    this.cache.adiciona(produto, null); // Salva cache negativo se não achar nada
                 } else {
                     this.houveAtualizacaoDeCache = true;
 
-                    for (Produto produtoRetorno : r) {
-                        this.cache.adiciona(produto, produtoRetorno);
+                    for (int i = 0; i < produtosBrutos.comprimento(); i++) {
+                        this.cache.adiciona(produto, produtosBrutos.obtem(i));
                     }
 
                     int[] faixa = obtem_info_paginas(response);
                     int total = faixa[2];
 
-                    while (r.comprimento() < total) {
-                        var maisProdutos = busca_proximo(produto, r.comprimento());
+                    while (produtosBrutos.comprimento() < total) {
+                        var maisProdutos = busca_proximo(produto, produtosBrutos.comprimento());
                         if (maisProdutos == null || maisProdutos.esta_vazia()) break;
 
                         for (int j = 0; j < maisProdutos.comprimento(); j++) {
                             Produto p = maisProdutos.obtem(j);
-                            r.adiciona(p);
+                            produtosBrutos.adiciona(p);
                             this.cache.adiciona(produto, p);
                         }
                     }
                 }
 
-                return new Resultado(this, produto, r, r.comprimento());
+                // Filtro local de segurança para o retorno da API baseado no termo
+                ListaSequencial<Produto> produtosFiltrados = new ListaSequencial<>();
+                String termoNormalizado = produto.toLowerCase().trim();
+                for (int i = 0; i < produtosBrutos.comprimento(); i++) {
+                    Produto p = produtosBrutos.obtem(i);
+                    if (p.getNome().toLowerCase().contains(termoNormalizado) && itemDesejado.aceitaProduto(p)) {
+                        produtosFiltrados.adiciona(p);
+                    }
+                }
+
+                if (produtosFiltrados.esta_vazia()) {
+                    return new Resultado(this, produto, produtosBrutos, produtosBrutos.comprimento());
+                }
+
+                return new Resultado(this, produto, produtosFiltrados, produtosFiltrados.comprimento());
             }
         }
         return null;
@@ -334,14 +348,14 @@ public class Supermercado {
      */
     public ListaSequencial<Produto> obtem(String... ids) {
         ListaSequencial<Produto> res = new ListaSequencial<>();
-        for (int j=0; j < ids.length; j += Supermercado.MAX_QUERY_LEN) {
-            var args = Arrays.copyOfRange(ids, j, Math.min(j+Supermercado.MAX_QUERY_LEN, ids.length));
+        for (int j = 0; j < ids.length; j += Supermercado.MAX_QUERY_LEN) {
+            var args = Arrays.copyOfRange(ids, j, Math.min(j + Supermercado.MAX_QUERY_LEN, ids.length));
             HttpResponse<String> response = envia(make_get_url(args));
             if (response != null) {
                 int status = response.statusCode();
                 if (status == 200 || status == 206) {
                     var prods = extrai_produtos(response);
-                    for (int k=0; k < prods.comprimento(); k++) {
+                    for (int k = 0; k < prods.comprimento(); k++) {
                         res.adiciona(prods.obtem(k));
                     }
                 }
@@ -352,7 +366,7 @@ public class Supermercado {
 
     public ListaSequencial<Produto> obtem(ListaSequencial<String> ids) {
         String[] args = new String[ids.comprimento()];
-        for (int j=0; j < ids.comprimento(); j++) {
+        for (int j = 0; j < ids.comprimento(); j++) {
             args[j] = ids.obtem(j);
         }
         return obtem(args);

@@ -66,6 +66,14 @@ public class Main {
         imprimirRanking(orcamentos);
         imprimirDetalhesVencedor(orcamentos.primeiro());
 
+
+        System.out.println("=========================================");
+        for (Orcamento orcamento : orcamentos) {
+            imprimirDetalhesVencedor(orcamento);
+            System.out.println("=========================================");
+        }
+
+
         for (Supermercado sm : supermercados) {
             sm.encerra();
         }
@@ -104,7 +112,7 @@ public class Main {
         for (ItemLista itemDesejado : itensDesejados) {
             float menorPreco = Float.MAX_VALUE;
             Produto melhorOpcao = null;
-            Supermercado.Resultado busca = sp.busca(itemDesejado.getTermoBusca());
+            Supermercado.Resultado busca = sp.busca(itemDesejado.getTermoBusca(), itemDesejado);
             if (busca != null) {
                 for (Produto p : busca) {
                     if (p.isDisponivel() && itemDesejado.aceitaProduto(p)) {
