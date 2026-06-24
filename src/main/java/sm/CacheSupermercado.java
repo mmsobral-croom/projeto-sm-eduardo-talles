@@ -19,6 +19,10 @@ public class CacheSupermercado {
         return hash.obtem_ou_default(nome, null);
     }
 
+    public boolean temCache() {
+        return !hash.esta_vazia();
+    }
+
     public void adiciona(String termo, Produto prod) {
         if (prod == null || termo == null) return;
 

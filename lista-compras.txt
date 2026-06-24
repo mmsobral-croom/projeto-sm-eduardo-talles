@@ -2,3 +2,6 @@ tapioca; ;Da Terrinha,Akio,Rocha
 cafe; 500g ;Melitta,Coracoes
 leite; uht ;tirol,parmalat
 sabao; po ;Omo,Brilhante,Ype
+pipoca; 500g;
+bala de goma; ; fini
+leite em pó; ; ninho

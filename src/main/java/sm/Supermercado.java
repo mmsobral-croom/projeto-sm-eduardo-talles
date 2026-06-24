@@ -143,6 +143,10 @@ public class Supermercado {
         this.cache.adiciona(termo, prod);
     }
 
+    public boolean temCache() {
+        return this.cache.temCache();
+    }
+
     String make_url(String produto, int inicio) {
         StringBuilder sb = new StringBuilder();
         sb.append(this.url);

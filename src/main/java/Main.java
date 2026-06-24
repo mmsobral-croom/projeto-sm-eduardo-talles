@@ -17,6 +17,23 @@ public class Main {
         supermercados.adiciona(new Bistek());
         supermercados.adiciona(new Fort());
 
+        boolean usaCache = false;
+        for (Supermercado sm : supermercados) {
+            if (sm.temCache()) {
+                usaCache = true;
+                break;
+            }
+        }
+        if (usaCache) {
+            System.out.println("=======================");
+            System.out.println("Buscando dados no Cache");
+            System.out.println("=======================");
+        } else {
+            System.out.println("=======================");
+            System.out.println(" Buscando dados na API ");
+            System.out.println("=======================");
+        }
+
         ListaSequencial<Orcamento> orcamentos = new ListaSequencial<>();
         for (Supermercado sm : supermercados) {
             ListaSequencial<Produto> produtosEncontrados = pesquisandoProduto(cestaDesejada, sm);
